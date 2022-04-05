@@ -572,6 +572,9 @@
         <Class IRI="#OWLClass_884dddc7_9782_44e4_b3ed_9aa7be0d5394"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_88fc6c8a_8125_4ca0_aec7_856a1581ac64"/>
     </Declaration>
     <Declaration>
@@ -744,6 +747,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_b083d97c_4d20_4614_9af9_c1a3de1f09b2"/>
@@ -1032,6 +1038,39 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_ff9e8829_fae4_4790_9148_e24ba2e9561f"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_2b5d77b4_0c44_44b4_870c_c54fe102227b"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_3f222c9e_7741_4a10_91e2_cb3126f9642a"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_5394097b_f727_4a0e_8750_b5ed5dbd5fb6"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_561860df_2795_4685_8629_fb03dbf094cd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_8f63e1d8_a96a_4ab0_8a12_0eb016e02680"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_c2caccec_873b_4db0_ab19_ba6b1bb5d0a9"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_fc62c635_a036_4b1c_a1bb_b189277befa0"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#OWLClass_00056fc3_5d3c_4376_a87f_93fe27629dfb"/>
@@ -1678,6 +1717,13 @@
         <Class IRI="#OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5"/>
+        <ObjectUnionOf>
+            <Class IRI="#OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a"/>
+            <Class IRI="#OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_781c5eb9_c5fc_4d2e_9c7b_4e87882edb95"/>
         <Class IRI="#OWLClass_6fc0f7da_2ceb_47ce_8d5d_1af863cfcefc"/>
     </SubClassOf>
@@ -1768,6 +1814,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_884dddc7_9782_44e4_b3ed_9aa7be0d5394"/>
         <Class IRI="#OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a"/>
+        <Class IRI="#OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_88fc6c8a_8125_4ca0_aec7_856a1581ac64"/>
@@ -2000,6 +2050,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384"/>
         <Class IRI="#OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2"/>
+        <Class IRI="#OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_b083d97c_4d20_4614_9af9_c1a3de1f09b2"/>
@@ -2385,6 +2439,58 @@
         <Class IRI="#OWLClass_ff9e8829_fae4_4790_9148_e24ba2e9561f"/>
         <Class IRI="#OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a"/>
+        <Class IRI="#OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2"/>
+    </DisjointClasses>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_2b5d77b4_0c44_44b4_870c_c54fe102227b"/>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0"/>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_5394097b_f727_4a0e_8750_b5ed5dbd5fb6"/>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_561860df_2795_4685_8629_fb03dbf094cd"/>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+        <DataProperty IRI="#OWLDataProperty_fc62c635_a036_4b1c_a1bb_b189277befa0"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405"/>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_8f63e1d8_a96a_4ab0_8a12_0eb016e02680"/>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f"/>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_c2caccec_873b_4db0_ab19_ba6b1bb5d0a9"/>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_fc62c635_a036_4b1c_a1bb_b189277befa0"/>
+        <DataProperty IRI="#OWLDataProperty_3f222c9e_7741_4a10_91e2_cb3126f9642a"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+        <Class IRI="#OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00056fc3_5d3c_4376_a87f_93fe27629dfb</IRI>
@@ -3322,6 +3428,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a</IRI>
+        <Literal xml:lang="en">male human being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_88fc6c8a_8125_4ca0_aec7_856a1581ac64</IRI>
         <Literal xml:lang="en">submit</Literal>
     </AnnotationAssertion>
@@ -3612,6 +3723,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2</IRI>
+        <Literal xml:lang="en">female human being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_b083d97c_4d20_4614_9af9_c1a3de1f09b2</IRI>
         <Literal xml:lang="en">disrespect</Literal>
     </AnnotationAssertion>
@@ -3664,6 +3780,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_bba51be2_0c0d_45e9_89ef_aba5a9411ab9</IRI>
         <Literal xml:lang="en">wrist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_bc2ea6ae_cf4b_4d2d_8ee6_1c9845edfdbb</IRI>
+        <Literal xml:lang="en">a collection of skills possessed by a human being</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4089,6 +4210,61 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_ff9e8829_fae4_4790_9148_e24ba2e9561f</IRI>
         <Literal xml:lang="en">aptitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_2b5d77b4_0c44_44b4_870c_c54fe102227b</IRI>
+        <Literal xml:lang="en">nickname</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_3f222c9e_7741_4a10_91e2_cb3126f9642a</IRI>
+        <Literal xml:lang="en">identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0</IRI>
+        <Literal xml:lang="en">last name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_5394097b_f727_4a0e_8750_b5ed5dbd5fb6</IRI>
+        <Literal xml:lang="en">maiden name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_561860df_2795_4685_8629_fb03dbf094cd</IRI>
+        <Literal xml:lang="en">name prefix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d</IRI>
+        <Literal xml:lang="en">name of a human being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405</IRI>
+        <Literal xml:lang="en">full name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_8f63e1d8_a96a_4ab0_8a12_0eb016e02680</IRI>
+        <Literal xml:lang="en">name suffix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f</IRI>
+        <Literal xml:lang="en">first name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_c2caccec_873b_4db0_ab19_ba6b1bb5d0a9</IRI>
+        <Literal xml:lang="en">middle name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_fc62c635_a036_4b1c_a1bb_b189277befa0</IRI>
+        <Literal xml:lang="en">name</Literal>
     </AnnotationAssertion>
 </Ontology>
 
