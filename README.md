@@ -1,4 +1,4 @@
-# Ontology For Human Being
+# Ontology For Human
 
 A W3C OWL ontology for a human
 
