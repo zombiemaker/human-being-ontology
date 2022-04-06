@@ -1,0 +1,2204 @@
+@prefix : <https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://raw.githubusercontent.com/human-ontology/main/human-being.owl> .
+
+<https://raw.githubusercontent.com/human-ontology/main/human-being.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_2b5d77b4_0c44_44b4_870c_c54fe102227b
+:OWLDataProperty_2b5d77b4_0c44_44b4_870c_c54fe102227b rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d ;
+                                                      rdfs:label "nickname"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_3f222c9e_7741_4a10_91e2_cb3126f9642a
+:OWLDataProperty_3f222c9e_7741_4a10_91e2_cb3126f9642a rdf:type owl:DatatypeProperty ;
+                                                      rdfs:label "identifier"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0
+:OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d ;
+                                                      rdf:type owl:FunctionalProperty ;
+                                                      rdfs:label "last name"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_5394097b_f727_4a0e_8750_b5ed5dbd5fb6
+:OWLDataProperty_5394097b_f727_4a0e_8750_b5ed5dbd5fb6 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d ;
+                                                      rdf:type owl:FunctionalProperty ;
+                                                      rdfs:label "maiden name"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_561860df_2795_4685_8629_fb03dbf094cd
+:OWLDataProperty_561860df_2795_4685_8629_fb03dbf094cd rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d ;
+                                                      rdfs:label "name prefix"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d
+:OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_fc62c635_a036_4b1c_a1bb_b189277befa0 ;
+                                                      rdfs:domain :OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5 ;
+                                                      rdfs:range xsd:string ;
+                                                      rdfs:label "name of a human being"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405
+:OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d ;
+                                                      rdf:type owl:FunctionalProperty ;
+                                                      rdfs:label "full name"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_8f63e1d8_a96a_4ab0_8a12_0eb016e02680
+:OWLDataProperty_8f63e1d8_a96a_4ab0_8a12_0eb016e02680 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d ;
+                                                      rdf:type owl:FunctionalProperty ;
+                                                      rdfs:label "name suffix"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f
+:OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d ;
+                                                      rdf:type owl:FunctionalProperty ;
+                                                      rdfs:label "first name"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_c2caccec_873b_4db0_ab19_ba6b1bb5d0a9
+:OWLDataProperty_c2caccec_873b_4db0_ab19_ba6b1bb5d0a9 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d ;
+                                                      rdf:type owl:FunctionalProperty ;
+                                                      rdfs:label "middle name"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLDataProperty_fc62c635_a036_4b1c_a1bb_b189277befa0
+:OWLDataProperty_fc62c635_a036_4b1c_a1bb_b189277befa0 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_3f222c9e_7741_4a10_91e2_cb3126f9642a ;
+                                                      rdfs:label "name"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_00056fc3_5d3c_4376_a87f_93fe27629dfb
+:OWLClass_00056fc3_5d3c_4376_a87f_93fe27629dfb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_14fa7ee1_d070_48c1_a1ac_38511810edcc ;
+                                               rdfs:label "convictions"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_000d5c9b_5f66_4e20_b652_e2aaeda51153
+:OWLClass_000d5c9b_5f66_4e20_b652_e2aaeda51153 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "interpret"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_014ab3ef_9282_466c_af1d_ad1c6b0f9b0d
+:OWLClass_014ab3ef_9282_466c_af1d_ad1c6b0f9b0d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6fc0f7da_2ceb_47ce_8d5d_1af863cfcefc ;
+                                               rdfs:label "express an emotion"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_018e05a6_a0d4_4572_a552_ee8b65f38d48
+:OWLClass_018e05a6_a0d4_4572_a552_ee8b65f38d48 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
+                                               rdfs:label "conscience"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_01dd391a_bbaa_4d44_841b_c583a493204b
+:OWLClass_01dd391a_bbaa_4d44_841b_c583a493204b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_710a1180_5a8e_4ef9_be60_55dcef9a90d3 ;
+                                               rdfs:label "upper lip"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_02d122fb_945f_4ec6_b1e4_f01c510b7a21
+:OWLClass_02d122fb_945f_4ec6_b1e4_f01c510b7a21 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "hopeful"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_03379e6a_6704_4855_8e2c_7968ae98af34
+:OWLClass_03379e6a_6704_4855_8e2c_7968ae98af34 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "concentration"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0371dc79_9bca_45b6_aef6_95418b3f6e72
+:OWLClass_0371dc79_9bca_45b6_aef6_95418b3f6e72 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "know"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_04082568_4815_4fc3_a3fc_12b9094a93ec
+:OWLClass_04082568_4815_4fc3_a3fc_12b9094a93ec rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
+                                               rdfs:label "emotionally sated"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_05f0a0e7_9520_4ffb_a35a_30ec90733d37
+:OWLClass_05f0a0e7_9520_4ffb_a35a_30ec90733d37 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
+                                               rdfs:label "non-verbal language"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_06319254_4de9_40cc_8483_137b484c96b7
+:OWLClass_06319254_4de9_40cc_8483_137b484c96b7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "expectations"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0836cbe6_6e59_455c_bfdc_a4df453d3f1a
+:OWLClass_0836cbe6_6e59_455c_bfdc_a4df453d3f1a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "belief"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0946188d_3412_4274_9b24_f1d389c9fd6b
+:OWLClass_0946188d_3412_4274_9b24_f1d389c9fd6b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "dreams"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_09781b61_af69_493a_a428_db5d72b9597b
+:OWLClass_09781b61_af69_493a_a428_db5d72b9597b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "site"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0aa57717_84bc_48a3_8420_c9b34884a89c
+:OWLClass_0aa57717_84bc_48a3_8420_c9b34884a89c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "understand"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0ad814bd_3ba9_4a06_94e3_76f031448ca3
+:OWLClass_0ad814bd_3ba9_4a06_94e3_76f031448ca3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0 ;
+                                               rdfs:label "asleep"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0b2399db_6faa_4cc0_8df2_f30978f13154
+:OWLClass_0b2399db_6faa_4cc0_8df2_f30978f13154 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "attention"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0b3b39c0_2e00_4908_b612_bbbc19908e54
+:OWLClass_0b3b39c0_2e00_4908_b612_bbbc19908e54 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "merciful"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0c034ed6_0ddc_4d38_8046_0206f0f0b5b5
+:OWLClass_0c034ed6_0ddc_4d38_8046_0206f0f0b5b5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9c1272cd_18af_43c2_aca2_b8a8934f2c8c ;
+                                               rdfs:label "penis"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0ce85b1a_0138_412e_b9b5_beedd3feb3b5
+:OWLClass_0ce85b1a_0138_412e_b9b5_beedd3feb3b5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "joyful"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0dd8d207_c34f_4a11_ab76_780a03b30894
+:OWLClass_0dd8d207_c34f_4a11_ab76_780a03b30894 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bc58ea31_9944_473e_b12a_fbe56c10c22e ;
+                                               rdfs:label "demeanor"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_0de99472_103f_48bb_9ab6_bca309677362
+:OWLClass_0de99472_103f_48bb_9ab6_bca309677362 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
+                                               rdfs:label "emotionally dead"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_11f4be2b_74f4_483c_9e5a_6d0269e83975
+:OWLClass_11f4be2b_74f4_483c_9e5a_6d0269e83975 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6d2b190b_4ac3_42a0_ac5d_407084d94f6f ;
+                                               rdfs:label "non-commital"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_124dd062_9cbd_4994_b4d0_75f2c0c36878
+:OWLClass_124dd062_9cbd_4994_b4d0_75f2c0c36878 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
+                                               rdfs:label "physically hungry"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_12827b94_070e_4986_862e_0c9cf15d5870
+:OWLClass_12827b94_070e_4986_862e_0c9cf15d5870 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
+                                               rdfs:label "emotionally alive"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_12886ff0_bb9b_402f_af9b_5f3ef6c0dc5d
+:OWLClass_12886ff0_bb9b_402f_af9b_5f3ef6c0dc5d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0 ;
+                                               rdfs:label "mentally healthy"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1412d694_591e_4bd7_a87e_6d5773c584d4
+:OWLClass_1412d694_591e_4bd7_a87e_6d5773c584d4 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0 ;
+                                               rdfs:label "alert"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_14fa7ee1_d070_48c1_a1ac_38511810edcc
+:OWLClass_14fa7ee1_d070_48c1_a1ac_38511810edcc rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "beliefs"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_154121c2_2419_4083_a9ec_067055ef8de7
+:OWLClass_154121c2_2419_4083_a9ec_067055ef8de7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "imagine"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1547fba4_958a_4356_b896_7b8557440152
+:OWLClass_1547fba4_958a_4356_b896_7b8557440152 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "expression"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_16140e30_d68f_4708_b572_e36899d9623c
+:OWLClass_16140e30_d68f_4708_b572_e36899d9623c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "gesture"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_16b3c2fd_2f0c_4b09_93e7_1ca1a005669d
+:OWLClass_16b3c2fd_2f0c_4b09_93e7_1ca1a005669d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_f5f4c797_de3e_4c67_9482_ea73514a9898 ;
+                                               rdfs:label "right arm"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_16e8e87b_1a3b_4f6a_9122_f3583516b93e
+:OWLClass_16e8e87b_1a3b_4f6a_9122_f3583516b93e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "deny"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d
+:OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc ;
+                                               rdfs:label "spiritual state of being"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_17de3a80_9fd5_41ef_9d91_7f05bd4a8176
+:OWLClass_17de3a80_9fd5_41ef_9d91_7f05bd4a8176 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "learn"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_19639ffa_df0d_4a35_b3c2_254561b37e82
+:OWLClass_19639ffa_df0d_4a35_b3c2_254561b37e82 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "proficiency"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1ac316fc_8c82_43cf_b12b_0186cfa16c1a
+:OWLClass_1ac316fc_8c82_43cf_b12b_0186cfa16c1a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1547fba4_958a_4356_b896_7b8557440152 ;
+                                               rdfs:label "facial expression"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1b013851_c0b8_42bc_b94a_58eada25f56b
+:OWLClass_1b013851_c0b8_42bc_b94a_58eada25f56b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_f143fdd4_cad4_4314_8f4b_8f0325ea2a79 ;
+                                               rdfs:label "right lung"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1b5c0e57_f294_4cd8_a760_29677cd6e9e8
+:OWLClass_1b5c0e57_f294_4cd8_a760_29677cd6e9e8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 ;
+                                               rdfs:label "sensory system"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab
+:OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c ;
+                                               rdfs:label "female component"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1bdf80f7_b8c3_4977_b8ae_05eeb79fd69b
+:OWLClass_1bdf80f7_b8c3_4977_b8ae_05eeb79fd69b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "recognize"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1d76fca4_744e_47ca_9ced_007b78b77eca
+:OWLClass_1d76fca4_744e_47ca_9ced_007b78b77eca rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 ;
+                                               rdfs:label "perceive-evaluate-choose-act"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f
+:OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "sub-component"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1e2786b1_711f_4e90_8f59_fde1cd8f2ea6
+:OWLClass_1e2786b1_711f_4e90_8f59_fde1cd8f2ea6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_54b212ec_b82d_4b60_9378_0d2f41811643 ;
+                                               rdfs:label "knee"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1e2c3b71_763d_4317_8605_58e216e7ac02
+:OWLClass_1e2c3b71_763d_4317_8605_58e216e7ac02 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
+                                               rdfs:label "physically healthy"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1e61725e_1366_454a_a73c_4a7041d06f8a
+:OWLClass_1e61725e_1366_454a_a73c_4a7041d06f8a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6d2b190b_4ac3_42a0_ac5d_407084d94f6f ;
+                                               rdfs:label "derisive"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_1ec222bc_3465_453f_af73_7018ea42a8d3
+:OWLClass_1ec222bc_3465_453f_af73_7018ea42a8d3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "interpretation"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_208a13a8_2da2_4d7b_9460_3b87a240bb90
+:OWLClass_208a13a8_2da2_4d7b_9460_3b87a240bb90 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_14fa7ee1_d070_48c1_a1ac_38511810edcc ;
+                                               rdfs:label "perceptions"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_21f4e891_2372_40cf_a2b3_096921bd39b2
+:OWLClass_21f4e891_2372_40cf_a2b3_096921bd39b2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9f98b318_dba1_4e89_8453_eb6f96a6ca98 ;
+                                               rdfs:label "middle finger"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_22a24087_4cc4_42aa_b5f2_7b509a310dd2
+:OWLClass_22a24087_4cc4_42aa_b5f2_7b509a310dd2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_154121c2_2419_4083_a9ec_067055ef8de7 ;
+                                               rdfs:label "conceptualize"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_22da6ac9_9ca8_4275_92f8_1d63ac3ec0be
+:OWLClass_22da6ac9_9ca8_4275_92f8_1d63ac3ec0be rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "habits"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_231f4f1a_b611_4e1e_bdab_f8e0462862e8
+:OWLClass_231f4f1a_b611_4e1e_bdab_f8e0462862e8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "thirst"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_24002dcd_bc86_446b_882e_f4359693ad1c
+:OWLClass_24002dcd_bc86_446b_882e_f4359693ad1c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a7e5c24d_42eb_4d3b_ab17_658bd44ea9ae ;
+                                               rdfs:label "spiritual sub-system"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_2483a6a9_b3c9_4740_b41f_834678b1a4c6
+:OWLClass_2483a6a9_b3c9_4740_b41f_834678b1a4c6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "breathe"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_24edd53a_a4f9_48e0_bdd8_8954fce35e4a
+:OWLClass_24edd53a_a4f9_48e0_bdd8_8954fce35e4a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "hunger"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_2515b417_986c_4281_8144_17399f17810b
+:OWLClass_2515b417_986c_4281_8144_17399f17810b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "disregard"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_25a30bf8_90b5_452f_92c1_ec5aae26cb8f
+:OWLClass_25a30bf8_90b5_452f_92c1_ec5aae26cb8f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "eye lid"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_26835691_b17e_4a67_980d_6fd017e12c18
+:OWLClass_26835691_b17e_4a67_980d_6fd017e12c18 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "heart (physical)"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_26a8dcb9_7dd4_44d9_957e_976b57cdceb2
+:OWLClass_26a8dcb9_7dd4_44d9_957e_976b57cdceb2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "foot"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47
+:OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 rdf:type owl:Class ;
+                                               rdfs:label "class"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_28804ed6_0467_4e54_a91e_842b26a2780c
+:OWLClass_28804ed6_0467_4e54_a91e_842b26a2780c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "desire (noun)"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_2880f9cb_f4c4_4e29_83da_00532d5c1c21
+:OWLClass_2880f9cb_f4c4_4e29_83da_00532d5c1c21 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6d2b190b_4ac3_42a0_ac5d_407084d94f6f ;
+                                               rdfs:label "violent"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_28969fc8_f83f_4b6c_887e_4960b88b44d4
+:OWLClass_28969fc8_f83f_4b6c_887e_4960b88b44d4 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "inquire"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_2958d7f5_fffe_4dc1_9faa_0611d972c8e6
+:OWLClass_2958d7f5_fffe_4dc1_9faa_0611d972c8e6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
+                                               rdfs:label "spirit"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_29707f11_55c2_4d55_aaa4_2bb6a17bb77b
+:OWLClass_29707f11_55c2_4d55_aaa4_2bb6a17bb77b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "assumptions"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_2cb7346b_2849_40c5_b5f4_4397fd88e376
+:OWLClass_2cb7346b_2849_40c5_b5f4_4397fd88e376 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "choice"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_2df55f25_2614_4cda_9c43_cf4529064e47
+:OWLClass_2df55f25_2614_4cda_9c43_cf4529064e47 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_f143fdd4_cad4_4314_8f4b_8f0325ea2a79 ;
+                                               rdfs:label "left lung"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_313a5670_534d_42e0_8480_166da64f2819
+:OWLClass_313a5670_534d_42e0_8480_166da64f2819 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ,
+                                                               :OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 ;
+                                               rdfs:label "experience directly-know"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c
+:OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362 ;
+                                               rdfs:label "sex specific component"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_35a2cd71_217d_4162_bd30_99e9a660fd4c
+:OWLClass_35a2cd71_217d_4162_bd30_99e9a660fd4c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d ;
+                                               rdfs:label "afraid"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3763d7c0_9075_4eb2_827d_c1b7ea00ac79
+:OWLClass_3763d7c0_9075_4eb2_827d_c1b7ea00ac79 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "anus"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3866b33d_dd70_410e_9ffb_ee864ec9fb68
+:OWLClass_3866b33d_dd70_410e_9ffb_ee864ec9fb68 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "despise"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_39667b0f_4cce_408d_a33c_5867e1d250fe
+:OWLClass_39667b0f_4cce_408d_a33c_5867e1d250fe rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "perseverance"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_399d8a3e_0ea2_40a6_96cd_cb255d60ed3d
+:OWLClass_399d8a3e_0ea2_40a6_96cd_cb255d60ed3d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "adore"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_39b37f9b_dccc_4c10_b428_4152459fdc44
+:OWLClass_39b37f9b_dccc_4c10_b428_4152459fdc44 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "abhor"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3a48bdc6_f46c_482f_a6bd_95f5b72cb440
+:OWLClass_3a48bdc6_f46c_482f_a6bd_95f5b72cb440 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "obey"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3a959c29_c8fe_4a40_8c8d_08589eb7b6b7
+:OWLClass_3a959c29_c8fe_4a40_8c8d_08589eb7b6b7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "interests"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3aeb0ed5_aa3d_4f4e_ba49_66910c5a212c
+:OWLClass_3aeb0ed5_aa3d_4f4e_ba49_66910c5a212c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "plead"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3bd06bdf_290d_414d_85c2_ebacce664f70
+:OWLClass_3bd06bdf_290d_414d_85c2_ebacce664f70 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "awareness"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3bd4f767_8f63_4bee_ad7b_308acfefb5e2
+:OWLClass_3bd4f767_8f63_4bee_ad7b_308acfefb5e2 rdf:type owl:Class ;
+                                               rdfs:label "category"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3c20f2b3_edf9_4c32_ad09_ea8cea4af9a1
+:OWLClass_3c20f2b3_edf9_4c32_ad09_ea8cea4af9a1 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "hold"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3c295f60_47bc_40a6_8fd6_d6986dc8d6e6
+:OWLClass_3c295f60_47bc_40a6_8fd6_d6986dc8d6e6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "throat"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3ed71f39_f863_49f0_8bcb_e4cdb6e35ccb
+:OWLClass_3ed71f39_f863_49f0_8bcb_e4cdb6e35ccb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d ;
+                                               rdfs:label "spiritually ill"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3f06e97e_6df2_4af0_bfa4_d4303c579b28
+:OWLClass_3f06e97e_6df2_4af0_bfa4_d4303c579b28 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "skin"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_3f118603_7cd2_4072_b3ef_1c1e569b3219
+:OWLClass_3f118603_7cd2_4072_b3ef_1c1e569b3219 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "desire (verb)"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4047bc76_f78a_4ad1_bd83_f2b04ab5b061
+:OWLClass_4047bc76_f78a_4ad1_bd83_f2b04ab5b061 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
+                                               rdfs:label "sensitive"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_40b9d992_7082_4591_a4a0_5531d3602a0e
+:OWLClass_40b9d992_7082_4591_a4a0_5531d3602a0e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d ;
+                                               rdfs:label "sad"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_40da9c8f_222f_4137_a1e7_1fe09d454150
+:OWLClass_40da9c8f_222f_4137_a1e7_1fe09d454150 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
+                                               rdfs:label "emotionally hungry"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_40ff2cda_59ce_4f19_8d78_9072585b5074
+:OWLClass_40ff2cda_59ce_4f19_8d78_9072585b5074 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d ;
+                                               rdfs:label "alive to sin"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_41d30bc3_b3ba_4f52_83f4_8274830cc8e3
+:OWLClass_41d30bc3_b3ba_4f52_83f4_8274830cc8e3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "visualize"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_42327d82_a3b1_4307_af75_899183cc72a9
+:OWLClass_42327d82_a3b1_4307_af75_899183cc72a9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "lust"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4534739a_12a3_4f2f_bca7_fadb66009b54
+:OWLClass_4534739a_12a3_4f2f_bca7_fadb66009b54 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "kneel"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4583dede_46b5_4fdb_9dea_d40d55190417
+:OWLClass_4583dede_46b5_4fdb_9dea_d40d55190417 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58 ;
+                                               rdfs:label "smell"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_466bfeb1_6495_4030_91b6_14a474eb9b5b
+:OWLClass_466bfeb1_6495_4030_91b6_14a474eb9b5b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d ;
+                                               rdfs:label "dead to sin"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_467c9565_e8d1_4b14_b466_2d14720cc111
+:OWLClass_467c9565_e8d1_4b14_b466_2d14720cc111 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "predict"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_46ce340a_6d9f_4c11_a270_611148c0d111
+:OWLClass_46ce340a_6d9f_4c11_a270_611148c0d111 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab ;
+                                               rdfs:label "ovary"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4732f09d_3a09_4a9f_93ff_7de1a54b0644
+:OWLClass_4732f09d_3a09_4a9f_93ff_7de1a54b0644 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d0a88381_fa7e_47dd_bb80_4f20d490d46a ;
+                                               rdfs:label "left leg"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_481ba78e_d361_4934_88e6_b4f25ca367a6
+:OWLClass_481ba78e_d361_4934_88e6_b4f25ca367a6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0 ;
+                                               rdfs:label "conscious"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4881cf5a_e936_4f77_902c_81e8ffe86b6e
+:OWLClass_4881cf5a_e936_4f77_902c_81e8ffe86b6e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "hair"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_489b6c4e_1bda_4ced_a653_0ac6d643d94d
+:OWLClass_489b6c4e_1bda_4ced_a653_0ac6d643d94d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9f98b318_dba1_4e89_8453_eb6f96a6ca98 ;
+                                               rdfs:label "index finger"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_493ecaff_9543_4222_80de_be598be3eb6c
+:OWLClass_493ecaff_9543_4222_80de_be598be3eb6c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
+                                               rdfs:label "verbal language"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_49b0e13e_d32e_46d6_a166_8f983123d2af
+:OWLClass_49b0e13e_d32e_46d6_a166_8f983123d2af rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "defile"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7
+:OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:comment "the ability of a single human being to do something"@en ;
+                                               rdfs:label "capability"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_49efae0d_0455_42c6_9769_33c8ab356654
+:OWLClass_49efae0d_0455_42c6_9769_33c8ab356654 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "neck"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4b3e7f4a_f5c5_4755_b781_66409647a45e
+:OWLClass_4b3e7f4a_f5c5_4755_b781_66409647a45e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "cares"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4b5b6b09_f602_4322_8e77_58e38aaaa243
+:OWLClass_4b5b6b09_f602_4322_8e77_58e38aaaa243 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b340cbf4_6098_42f5_b919_0e004f85114f ;
+                                               rdfs:label "jump"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4b978649_bfe5_4b5b_bd5f_7f7bf717541a
+:OWLClass_4b978649_bfe5_4b5b_bd5f_7f7bf717541a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 ;
+                                               rdfs:label "circulatory system"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035
+:OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a7e5c24d_42eb_4d3b_ab17_658bd44ea9ae ;
+                                               rdfs:label "physical sub-system"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4dcb6f45_1869_4bf3_97e6_7c5a5283f748
+:OWLClass_4dcb6f45_1869_4bf3_97e6_7c5a5283f748 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "plan (noun)"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4dea8680_b0b7_4ad9_b9f3_23552616e4e0
+:OWLClass_4dea8680_b0b7_4ad9_b9f3_23552616e4e0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "strength"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660
+:OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc ;
+                                               rdfs:label "physical state of being"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_505ac514_0e5b_4a5a_8c55_55ea3547a0ff
+:OWLClass_505ac514_0e5b_4a5a_8c55_55ea3547a0ff rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "stretch"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5076b792_3fb0_40be_9b50_232babfbcad4
+:OWLClass_5076b792_3fb0_40be_9b50_232babfbcad4 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_f5f4c797_de3e_4c67_9482_ea73514a9898 ;
+                                               rdfs:label "left arm"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_50e1c4a4_ee8c_4b4b_87e0_6994e79ad3e9
+:OWLClass_50e1c4a4_ee8c_4b4b_87e0_6994e79ad3e9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "skill"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5100e709_b0d6_4f08_971d_bcad7c252ecd
+:OWLClass_5100e709_b0d6_4f08_971d_bcad7c252ecd rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "consecrate"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_515bca11_4698_46ae_ae18_2a3ca5d38b90
+:OWLClass_515bca11_4698_46ae_ae18_2a3ca5d38b90 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_c3257298_bd3b_4aa3_8b44_3e2a229a4997 ;
+                                               rdfs:label "toe nail"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_531d483f_44d4_4ee5_bfc1_5b5aa3fca8a1
+:OWLClass_531d483f_44d4_4ee5_bfc1_5b5aa3fca8a1 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
+                                               rdfs:label "emotionally ill"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_53378ba8_0d13_4217_8073_0d8936e48e29
+:OWLClass_53378ba8_0d13_4217_8073_0d8936e48e29 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9f98b318_dba1_4e89_8453_eb6f96a6ca98 ;
+                                               rdfs:label "thumb"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_544cc832_c08f_4509_9322_5ac6570a06e2
+:OWLClass_544cc832_c08f_4509_9322_5ac6570a06e2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "mouth"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_549eb286_0866_4bec_b5e7_a3c74dd39b88
+:OWLClass_549eb286_0866_4bec_b5e7_a3c74dd39b88 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "wisdom"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_54b212ec_b82d_4b60_9378_0d2f41811643
+:OWLClass_54b212ec_b82d_4b60_9378_0d2f41811643 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "joint"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_554ebb5e_b871_4c90_a8ac_fae736a8b8d3
+:OWLClass_554ebb5e_b871_4c90_a8ac_fae736a8b8d3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b340cbf4_6098_42f5_b919_0e004f85114f ;
+                                               rdfs:label "crawl"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_556e8a8b_54a3_46c4_a1de_621835314371
+:OWLClass_556e8a8b_54a3_46c4_a1de_621835314371 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "helpful"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_55b72189_1a53_4a3a_9920_44f154834b61
+:OWLClass_55b72189_1a53_4a3a_9920_44f154834b61 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "hope (noun)"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_56b0aa45_9094_4cb8_b41c_fae8432351e6
+:OWLClass_56b0aa45_9094_4cb8_b41c_fae8432351e6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "person"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_573f1e3c_4248_42d2_af18_20697d5010ad
+:OWLClass_573f1e3c_4248_42d2_af18_20697d5010ad rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "affection"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_575db699_5d91_4ac6_adea_d4ce5b18a51c
+:OWLClass_575db699_5d91_4ac6_adea_d4ce5b18a51c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
+                                               rdfs:label "calloused"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_58dfb5c6_c4bb_4b44_84e2_f14e3d770207
+:OWLClass_58dfb5c6_c4bb_4b44_84e2_f14e3d770207 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0 ;
+                                               rdfs:label "mentally ill"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5aefb423_5bb6_4293_a215_734dc4d89da6
+:OWLClass_5aefb423_5bb6_4293_a215_734dc4d89da6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_641ab1b6_0433_4f2d_bd50_5124e3d90932 ;
+                                               rdfs:label "prediction"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5b4edee3_0816_4bc4_bdac_a3fca4dec477
+:OWLClass_5b4edee3_0816_4bc4_bdac_a3fca4dec477 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "wounds"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5cdb643c_99fd_4581_9a95_b2cedea80916
+:OWLClass_5cdb643c_99fd_4581_9a95_b2cedea80916 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "thankful"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5d2d42f5_5987_46d4_aef9_d1c4ac4dd2a0
+:OWLClass_5d2d42f5_5987_46d4_aef9_d1c4ac4dd2a0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "memories"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5d76fcab_49bd_490c_a59d_d848816267ce
+:OWLClass_5d76fcab_49bd_490c_a59d_d848816267ce rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "hope"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5da0b80b_dd36_47ed_b2ea_abc117000d35
+:OWLClass_5da0b80b_dd36_47ed_b2ea_abc117000d35 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_68992945_c621_43e9_ab3f_2fc95da36f5b ;
+                                               rdfs:label "large intestine"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5e263f1e_4429_4ae9_a9ef_693e1f7d0a9e
+:OWLClass_5e263f1e_4429_4ae9_a9ef_693e1f7d0a9e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4dcb6f45_1869_4bf3_97e6_7c5a5283f748 ;
+                                               rdfs:label "intention"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5e894aba_baf9_4041_bfac_c705a86d1600
+:OWLClass_5e894aba_baf9_4041_bfac_c705a86d1600 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "reason"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5ea5dfac_4925_435c_bc1c_1e361ac9f3d0
+:OWLClass_5ea5dfac_4925_435c_bc1c_1e361ac9f3d0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
+                                               rdfs:label "physically quenched"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_5ef83810_42ca_43df_b5a7_85ba02794ee7
+:OWLClass_5ef83810_42ca_43df_b5a7_85ba02794ee7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
+                                               rdfs:label "will"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6019481a_32d6_4a11_af73_673b44acdfe5
+:OWLClass_6019481a_32d6_4a11_af73_673b44acdfe5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
+                                               rdfs:label "soul"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_60684b38_1159_4922_8bac_5a8746a55c75
+:OWLClass_60684b38_1159_4922_8bac_5a8746a55c75 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9f98b318_dba1_4e89_8453_eb6f96a6ca98 ;
+                                               rdfs:label "ring finger"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_60869127_d182_4383_bab5_b0282f7f4276
+:OWLClass_60869127_d182_4383_bab5_b0282f7f4276 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "bone"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_610d991d_5947_46c5_8cc5_fe504afd8d86
+:OWLClass_610d991d_5947_46c5_8cc5_fe504afd8d86 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "create"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_61cf570f_05b9_4d68_8909_0b33f37281d9
+:OWLClass_61cf570f_05b9_4d68_8909_0b33f37281d9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_54b212ec_b82d_4b60_9378_0d2f41811643 ;
+                                               rdfs:label "elbow"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_61ff0bec_97b1_41fc_b885_aa46215ea3dd
+:OWLClass_61ff0bec_97b1_41fc_b885_aa46215ea3dd rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 ;
+                                               rdfs:label "sense-interpret-perceive"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_62d52cec_6a5b_491f_abd4_2d704796efe6
+:OWLClass_62d52cec_6a5b_491f_abd4_2d704796efe6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "experiences"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6380ad87_dd09_4628_baa5_b3937f6d8454
+:OWLClass_6380ad87_dd09_4628_baa5_b3937f6d8454 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "concern"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_641ab1b6_0433_4f2d_bd50_5124e3d90932
+:OWLClass_641ab1b6_0433_4f2d_bd50_5124e3d90932 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "expectation"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a
+:OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a rdf:type owl:Class ;
+                                               rdfs:label "collection"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_68629869_7087_415f_9569_6758ccc9a738
+:OWLClass_68629869_7087_415f_9569_6758ccc9a738 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_710a1180_5a8e_4ef9_be60_55dcef9a90d3 ;
+                                               rdfs:label "lower lip"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_68992945_c621_43e9_ab3f_2fc95da36f5b
+:OWLClass_68992945_c621_43e9_ab3f_2fc95da36f5b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "intestine"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6917628f_63f8_4a8d_bc50_0d3a407f5bca
+:OWLClass_6917628f_63f8_4a8d_bc50_0d3a407f5bca rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ff45767a_d847_4708_a73a_df50b8e34bb4 ;
+                                               rdfs:label "pinky toe"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_69afe394_68e6_40fc_a06a_790611ae4b5b
+:OWLClass_69afe394_68e6_40fc_a06a_790611ae4b5b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "creativity"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6a38f867_5353_4f12_a060_c8bc7349aa6b
+:OWLClass_6a38f867_5353_4f12_a060_c8bc7349aa6b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "fears"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6a9a6bbd_63f5_4735_8ac6_449f4c8aacee
+:OWLClass_6a9a6bbd_63f5_4735_8ac6_449f4c8aacee rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d ;
+                                               rdfs:label "happy"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6cd39720_ef0d_4b26_9aac_b1029f05043e
+:OWLClass_6cd39720_ef0d_4b26_9aac_b1029f05043e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "preferences"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6d2b190b_4ac3_42a0_ac5d_407084d94f6f
+:OWLClass_6d2b190b_4ac3_42a0_ac5d_407084d94f6f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bc58ea31_9944_473e_b12a_fbe56c10c22e ;
+                                               rdfs:label "manner"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6e2fbbfa_9ed5_4a10_8880_add44e4cecc3
+:OWLClass_6e2fbbfa_9ed5_4a10_8880_add44e4cecc3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "spleen"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6f228be8_7bbb_4d07_bca3_85e4d299f6ca
+:OWLClass_6f228be8_7bbb_4d07_bca3_85e4d299f6ca rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "exhale"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6f8863fc_205f_4a2e_9e89_bd8ec990b63f
+:OWLClass_6f8863fc_205f_4a2e_9e89_bd8ec990b63f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab ;
+                                               rdfs:label "vagina"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6fb413ff_085d_4dcf_8ffb_466c8040e873
+:OWLClass_6fb413ff_085d_4dcf_8ffb_466c8040e873 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "look"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_6fc0f7da_2ceb_47ce_8d5d_1af863cfcefc
+:OWLClass_6fc0f7da_2ceb_47ce_8d5d_1af863cfcefc rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "express"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_7029292d_a27e_4e35_9d5e_4878e7c025af
+:OWLClass_7029292d_a27e_4e35_9d5e_4878e7c025af rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "blood vessel"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_70af5d3d_ec38_479e_9311_31ae12531e8b
+:OWLClass_70af5d3d_ec38_479e_9311_31ae12531e8b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab ;
+                                               rdfs:label "mamory gland"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_710a1180_5a8e_4ef9_be60_55dcef9a90d3
+:OWLClass_710a1180_5a8e_4ef9_be60_55dcef9a90d3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "lip"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_72943931_c469_43aa_9410_34e3fd496540
+:OWLClass_72943931_c469_43aa_9410_34e3fd496540 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "inhale"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_74687475_711f_41fe_83d8_f690dba6afc2
+:OWLClass_74687475_711f_41fe_83d8_f690dba6afc2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
+                                               rdfs:label "heart (non-physical)"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_74a16e7f_d61b_4bcd_9bfc_399b3a42b816
+:OWLClass_74a16e7f_d61b_4bcd_9bfc_399b3a42b816 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "endurance"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_7565ab33_7202_463a_80db_1a6ca099670e
+:OWLClass_7565ab33_7202_463a_80db_1a6ca099670e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d ;
+                                               rdfs:label "spiritually healthy"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_75e1c397_bba6_431b_8c94_91daf7aff402
+:OWLClass_75e1c397_bba6_431b_8c94_91daf7aff402 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "honor"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5
+:OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ,
+                                                               [ rdf:type owl:Class ;
+                                                                 owl:unionOf ( :OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a
+                                                                               :OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2
+                                                                             )
+                                                               ] ;
+                                               rdfs:label "human"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_781c5eb9_c5fc_4d2e_9c7b_4e87882edb95
+:OWLClass_781c5eb9_c5fc_4d2e_9c7b_4e87882edb95 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6fc0f7da_2ceb_47ce_8d5d_1af863cfcefc ;
+                                               rdfs:label "express an idea"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_78d170cf_a7ae_483b_8445_cc2dcf0d7502
+:OWLClass_78d170cf_a7ae_483b_8445_cc2dcf0d7502 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_54b212ec_b82d_4b60_9378_0d2f41811643 ;
+                                               rdfs:label "ankle"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_78d43c45_8a22_47a1_bbe0_b0d5e80ea4c2
+:OWLClass_78d43c45_8a22_47a1_bbe0_b0d5e80ea4c2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6d2b190b_4ac3_42a0_ac5d_407084d94f6f ;
+                                               rdfs:label "argumentative"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_7929c7f8_874d_4657_a8c9_82dbd9b44766
+:OWLClass_7929c7f8_874d_4657_a8c9_82dbd9b44766 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "humble"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_7942c50b_2344_408b_aab9_9df7484fc949
+:OWLClass_7942c50b_2344_408b_aab9_9df7484fc949 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_0836cbe6_6e59_455c_bfdc_a4df453d3f1a ;
+                                               rdfs:label "conviction"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_79db50f9_4acc_4b92_912b_e8da5072ce73
+:OWLClass_79db50f9_4acc_4b92_912b_e8da5072ce73 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8778d06e_c9a9_49a3_9e9e_692b0e219ba5 ;
+                                               rdfs:label "right hand"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_7a5e2bdd_d3f8_4802_ac2e_f05dcbbc9316
+:OWLClass_7a5e2bdd_d3f8_4802_ac2e_f05dcbbc9316 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "preference"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_7afeca0f_ccac_449e_8942_20bfdd6b7b28
+:OWLClass_7afeca0f_ccac_449e_8942_20bfdd6b7b28 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "dishonor"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_7bc2eb2b_b1b1_4b8c_b816_a1ab03db280f
+:OWLClass_7bc2eb2b_b1b1_4b8c_b816_a1ab03db280f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58 ;
+                                               rdfs:label "see"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_7cf640c1_7e9c_4754_b863_66e3d076a9ea
+:OWLClass_7cf640c1_7e9c_4754_b863_66e3d076a9ea rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "head"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58
+:OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "sense"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_80064355_7c8c_4ca7_99ed_9f652f2f84c5
+:OWLClass_80064355_7c8c_4ca7_99ed_9f652f2f84c5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "injuries"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_81303dd3_40bd_486c_b719_d5c702d79084
+:OWLClass_81303dd3_40bd_486c_b719_d5c702d79084 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "think"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_81704898_3484_47f6_9444_3aefe7aa7301
+:OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "language"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_818cb6df_b92a_43e3_bf8d_d38c6707e8b7
+:OWLClass_818cb6df_b92a_43e3_bf8d_d38c6707e8b7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 ;
+                                               rdfs:label "experience-reason-learn"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922
+:OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "process"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8479b900_4bd9_40b2_905c_69f5aa2a6143
+:OWLClass_8479b900_4bd9_40b2_905c_69f5aa2a6143 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "prefer"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_849a77cb_3df0_4774_b43c_5429f7c6f3a3
+:OWLClass_849a77cb_3df0_4774_b43c_5429f7c6f3a3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "endure"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_86c21cde_e4b3_4f36_acbb_8dbb2c11dc18
+:OWLClass_86c21cde_e4b3_4f36_acbb_8dbb2c11dc18 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "prideful"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_87753527_01d7_4692_a9a0_f966ed82f400
+:OWLClass_87753527_01d7_4692_a9a0_f966ed82f400 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9c1272cd_18af_43c2_aca2_b8a8934f2c8c ;
+                                               rdfs:label "testicle"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8778d06e_c9a9_49a3_9e9e_692b0e219ba5
+:OWLClass_8778d06e_c9a9_49a3_9e9e_692b0e219ba5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "hand"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8849c997_d019_4f32_aad3_5e6c9f36c70d
+:OWLClass_8849c997_d019_4f32_aad3_5e6c9f36c70d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_26a8dcb9_7dd4_44d9_957e_976b57cdceb2 ;
+                                               rdfs:label "left foot"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_884dddc7_9782_44e4_b3ed_9aa7be0d5394
+:OWLClass_884dddc7_9782_44e4_b3ed_9aa7be0d5394 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "anticipate"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a
+:OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5 ;
+                                               owl:disjointWith :OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2 ;
+                                               rdfs:label "male human"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_88fc6c8a_8125_4ca0_aec7_856a1581ac64
+:OWLClass_88fc6c8a_8125_4ca0_aec7_856a1581ac64 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "submit"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_891e22c0_4398_4d9d_8e7d_bbeaf268c0a0
+:OWLClass_891e22c0_4398_4d9d_8e7d_bbeaf268c0a0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "ingest"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_89bb86b3_3e00_4757_bfcf_32a5f02791bf
+:OWLClass_89bb86b3_3e00_4757_bfcf_32a5f02791bf rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d ;
+                                               rdfs:label "dead to God"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8b6ac3d9_bf23_41b2_91d4_661cbb120864
+:OWLClass_8b6ac3d9_bf23_41b2_91d4_661cbb120864 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "hopes"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8bb945b8_0671_476e_8267_7a7466abdee6
+:OWLClass_8bb945b8_0671_476e_8267_7a7466abdee6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "nose"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8c7052fd_a0b7_440d_bccd_12c9f3c6e363
+:OWLClass_8c7052fd_a0b7_440d_bccd_12c9f3c6e363 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "self-control"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8d571aa0_7058_4e4f_a4e5_4d1e83488153
+:OWLClass_8d571aa0_7058_4e4f_a4e5_4d1e83488153 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 ;
+                                               rdfs:label "skeletory system"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8e1c0e15_3a7a_4283_a8d4_124b6f09e083
+:OWLClass_8e1c0e15_3a7a_4283_a8d4_124b6f09e083 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8778d06e_c9a9_49a3_9e9e_692b0e219ba5 ;
+                                               rdfs:label "left hand"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8f608acc_45b7_409f_a297_65bfebf78df8
+:OWLClass_8f608acc_45b7_409f_a297_65bfebf78df8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1e2786b1_711f_4e90_8f59_fde1cd8f2ea6 ;
+                                               rdfs:label "right knee"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_8f6ee3ba_95b7_4c0a_b22a_736ca36ff611
+:OWLClass_8f6ee3ba_95b7_4c0a_b22a_736ca36ff611 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "unhelpful"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_904973bb_6aa5_47fb_a9ad_bbbaba52ef94
+:OWLClass_904973bb_6aa5_47fb_a9ad_bbbaba52ef94 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_60869127_d182_4383_bab5_b0282f7f4276 ;
+                                               rdfs:label "rib"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_91004562_00d8_4f5d_89b8_28e4f4854bc9
+:OWLClass_91004562_00d8_4f5d_89b8_28e4f4854bc9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "beg"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_91329b58_8db2_4056_bfab_8bc1daf0014d
+:OWLClass_91329b58_8db2_4056_bfab_8bc1daf0014d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7029292d_a27e_4e35_9d5e_4878e7c025af ;
+                                               rdfs:label "vein"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_921b7cbe_187c_43be_b37c_ba9465f39c59
+:OWLClass_921b7cbe_187c_43be_b37c_ba9465f39c59 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
+                                               rdfs:label "physically dead"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_93563be1_c560_4220_8b19_1ec48f8595c9
+:OWLClass_93563be1_c560_4220_8b19_1ec48f8595c9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_c3257298_bd3b_4aa3_8b44_3e2a229a4997 ;
+                                               rdfs:label "finger nail"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_942028ca_7c3d_4ba7_8401_f3e9769e6869
+:OWLClass_942028ca_7c3d_4ba7_8401_f3e9769e6869 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "approve"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_94dab8c7_2667_44ae_a58e_14f50b3eb9d7
+:OWLClass_94dab8c7_2667_44ae_a58e_14f50b3eb9d7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "trust"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_95060fbc_7668_4bd3_ba01_8d48d419f456
+:OWLClass_95060fbc_7668_4bd3_ba01_8d48d419f456 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "plan (verb)"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9587ddb6_d7f0_4679_8964_0c859a475059
+:OWLClass_9587ddb6_d7f0_4679_8964_0c859a475059 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "ear"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_96b9e439_a691_4086_9529_d3017422b9fc
+:OWLClass_96b9e439_a691_4086_9529_d3017422b9fc rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "dimension of being"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9708b52f_5810_412b_a26b_bfa76cc66dac
+:OWLClass_9708b52f_5810_412b_a26b_bfa76cc66dac rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "irreconcileable"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9766683c_d343_4ffb_8b21_3c3f61da0532
+:OWLClass_9766683c_d343_4ffb_8b21_3c3f61da0532 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "world view"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_97aa14ec_8d7b_4580_9ec0_73def68aa31c
+:OWLClass_97aa14ec_8d7b_4580_9ec0_73def68aa31c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "wish (verb)"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_97ad7af2_99ac_448c_9fc9_111c9bdc4aa5
+:OWLClass_97ad7af2_99ac_448c_9fc9_111c9bdc4aa5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "imagination"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_99fde1e1_135e_428c_9c5c_75e52d8008fb
+:OWLClass_99fde1e1_135e_428c_9c5c_75e52d8008fb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "relationships"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc
+:OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "state of being"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d
+:OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362 ;
+                                               rdfs:label "non-sex specific component"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9be3da14_69e5_41c2_8cc8_02e4a4a72bee
+:OWLClass_9be3da14_69e5_41c2_8cc8_02e4a4a72bee rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "sensitivity"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9c016502_473a_401b_bde3_73df6a31f9e4
+:OWLClass_9c016502_473a_401b_bde3_73df6a31f9e4 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "eye brow"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9c1272cd_18af_43c2_aca2_b8a8934f2c8c
+:OWLClass_9c1272cd_18af_43c2_aca2_b8a8934f2c8c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c ;
+                                               rdfs:label "male component"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9cbd20b7_dde6_4b13_a001_a717e5f5f2ce
+:OWLClass_9cbd20b7_dde6_4b13_a001_a717e5f5f2ce rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "disobey"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9cd3a574_dedd_40bf_8286_c420b135de6b
+:OWLClass_9cd3a574_dedd_40bf_8286_c420b135de6b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "nostril"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9cf8ec69_23d3_4e0f_83be_ea4e49d3962e
+:OWLClass_9cf8ec69_23d3_4e0f_83be_ea4e49d3962e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d ;
+                                               rdfs:label "lonely"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9d3fbd90_d1d1_4a78_ae57_d564af3a1efc
+:OWLClass_9d3fbd90_d1d1_4a78_ae57_d564af3a1efc rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "worries"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9e924065_6519_4d32_90b4_60bf7ddb781f
+:OWLClass_9e924065_6519_4d32_90b4_60bf7ddb781f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "hopeless"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9ea846bf_bb71_4129_b4f5_e94c10f76330
+:OWLClass_9ea846bf_bb71_4129_b4f5_e94c10f76330 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "sanctify"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362
+:OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f ;
+                                               rdfs:label "physical sub-component"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9f390fe0_2294_4216_9d78_794839decd86
+:OWLClass_9f390fe0_2294_4216_9d78_794839decd86 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab ;
+                                               rdfs:label "uterus"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9f4b25ed_cf08_42b8_a322_eb055cba6b1e
+:OWLClass_9f4b25ed_cf08_42b8_a322_eb055cba6b1e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "perceive"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_9f98b318_dba1_4e89_8453_eb6f96a6ca98
+:OWLClass_9f98b318_dba1_4e89_8453_eb6f96a6ca98 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "finger"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a109fba8_6f0b_45af_a707_d700e9c17920
+:OWLClass_a109fba8_6f0b_45af_a707_d700e9c17920 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "tongue"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a11f5e62_bef0_4bd8_b0e0_7f23854ffb23
+:OWLClass_a11f5e62_bef0_4bd8_b0e0_7f23854ffb23 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_0836cbe6_6e59_455c_bfdc_a4df453d3f1a ;
+                                               rdfs:label "perception"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a12ebb3b_a381_4ecb_9f03_e8c08d638035
+:OWLClass_a12ebb3b_a381_4ecb_9f03_e8c08d638035 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
+                                               rdfs:label "physically thirsty"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a1c30358_c614_41c9_8ca0_3b91b633a2b1
+:OWLClass_a1c30358_c614_41c9_8ca0_3b91b633a2b1 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "choose"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a2f39dd1_c3f7_4972_83ea_6fe5252ec392
+:OWLClass_a2f39dd1_c3f7_4972_83ea_6fe5252ec392 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "acknowledge"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a377018d_e325_464a_bf45_ef24442aaa1c
+:OWLClass_a377018d_e325_464a_bf45_ef24442aaa1c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "disdain"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a3e03f4d_822e_47b7_9b31_612a4151cd0d
+:OWLClass_a3e03f4d_822e_47b7_9b31_612a4151cd0d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9587ddb6_d7f0_4679_8964_0c859a475059 ;
+                                               rdfs:label "left ear"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a464395f_13de_45cf_b200_55fb598f0c91
+:OWLClass_a464395f_13de_45cf_b200_55fb598f0c91 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6fc0f7da_2ceb_47ce_8d5d_1af863cfcefc ;
+                                               rdfs:label "express a thought"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d
+:OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "emotion"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a571c1f3_ff01_4500_a4b6_d82412aa94d0
+:OWLClass_a571c1f3_ff01_4500_a4b6_d82412aa94d0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "butt"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a5c5dc37_f9de_487d_9732_69d6bdbc1e2f
+:OWLClass_a5c5dc37_f9de_487d_9732_69d6bdbc1e2f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 ;
+                                               rdfs:label "muscular system"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a7e5c24d_42eb_4d3b_ab17_658bd44ea9ae
+:OWLClass_a7e5c24d_42eb_4d3b_ab17_658bd44ea9ae rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "sub-system"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a870684a_13e8_468e_8674_1a8f457524fa
+:OWLClass_a870684a_13e8_468e_8674_1a8f457524fa rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "focus"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a8b8d521_b65b_4e18_93e6_df94f9ed871c
+:OWLClass_a8b8d521_b65b_4e18_93e6_df94f9ed871c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "merciless"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a8bb3579_7d4e_44e4_934a_f55b90cbf258
+:OWLClass_a8bb3579_7d4e_44e4_934a_f55b90cbf258 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "kidney"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_a9144b72_b0fb_43f8_b779_101ab41499e9
+:OWLClass_a9144b72_b0fb_43f8_b779_101ab41499e9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "bow"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ac7eb471_0787_4f9f_8efc_1c303bfed60a
+:OWLClass_ac7eb471_0787_4f9f_8efc_1c303bfed60a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7029292d_a27e_4e35_9d5e_4878e7c025af ;
+                                               rdfs:label "artery"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_acad20d8_c0b3_45cd_aef6_c8aa6f8d9bbc
+:OWLClass_acad20d8_c0b3_45cd_aef6_c8aa6f8d9bbc rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
+                                               rdfs:label "faith"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384
+:OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f ;
+                                               rdfs:label "spiritual sub-component"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2
+:OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5 ;
+                                               rdfs:label "female human"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_b083d97c_4d20_4614_9af9_c1a3de1f09b2
+:OWLClass_b083d97c_4d20_4614_9af9_c1a3de1f09b2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "disrespect"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_b16465d5_dd1d_4aa8_9c67_e7abf0f5b4b3
+:OWLClass_b16465d5_dd1d_4aa8_9c67_e7abf0f5b4b3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1e2786b1_711f_4e90_8f59_fde1cd8f2ea6 ;
+                                               rdfs:label "left knee"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_b2115cce_e9fa_4cab_a263_edb99acfe51e
+:OWLClass_b2115cce_e9fa_4cab_a263_edb99acfe51e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "interpretations"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_b340cbf4_6098_42f5_b919_0e004f85114f
+:OWLClass_b340cbf4_6098_42f5_b919_0e004f85114f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "move"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0
+:OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc ;
+                                               rdfs:label "mental state of being"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_b4b184f6_2b4c_44ad_975a_35c1d1b62840
+:OWLClass_b4b184f6_2b4c_44ad_975a_35c1d1b62840 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b340cbf4_6098_42f5_b919_0e004f85114f ;
+                                               rdfs:label "walk"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_b58af007_74ad_4809_8c3b_c5ec5f0d2128
+:OWLClass_b58af007_74ad_4809_8c3b_c5ec5f0d2128 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "respect"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_b69c84fc_93ab_4d0b_b2eb_2dcf5b47dbe9
+:OWLClass_b69c84fc_93ab_4d0b_b2eb_2dcf5b47dbe9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
+                                               rdfs:label "kind"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_b74f2711_d24c_4704_b497_664d4efe9c6c
+:OWLClass_b74f2711_d24c_4704_b497_664d4efe9c6c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9f98b318_dba1_4e89_8453_eb6f96a6ca98 ;
+                                               rdfs:label "pinky finger"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_b904e3eb_b605_46a3_95ff_0d99a9255439
+:OWLClass_b904e3eb_b605_46a3_95ff_0d99a9255439 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58 ;
+                                               rdfs:label "touch"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_bba51be2_0c0d_45e9_89ef_aba5a9411ab9
+:OWLClass_bba51be2_0c0d_45e9_89ef_aba5a9411ab9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_54b212ec_b82d_4b60_9378_0d2f41811643 ;
+                                               rdfs:label "wrist"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_bc2ea6ae_cf4b_4d2d_8ee6_1c9845edfdbb
+:OWLClass_bc2ea6ae_cf4b_4d2d_8ee6_1c9845edfdbb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:comment "a collection of skills possessed by a human being"@en ;
+                                               rdfs:label "skills"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_bc58ea31_9944_473e_b12a_fbe56c10c22e
+:OWLClass_bc58ea31_9944_473e_b12a_fbe56c10c22e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "behavior"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c
+:OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "capacity"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_be96d3a3_2621_4948_90de_d99e3d6919c8
+:OWLClass_be96d3a3_2621_4948_90de_d99e3d6919c8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_54b212ec_b82d_4b60_9378_0d2f41811643 ;
+                                               rdfs:label "knuckle"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c0f77dfb_3cd7_4849_90fb_ffb21983a810
+:OWLClass_c0f77dfb_3cd7_4849_90fb_ffb21983a810 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58 ;
+                                               rdfs:label "hear"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c15b6736_1232_4c20_a976_a95aa0e6d217
+:OWLClass_c15b6736_1232_4c20_a976_a95aa0e6d217 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d ;
+                                               rdfs:label "angry"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c1904cf9_016e_4eba_9212_ad7b2eee9116
+:OWLClass_c1904cf9_016e_4eba_9212_ad7b2eee9116 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "worship"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c3257298_bd3b_4aa3_8b44_3e2a229a4997
+:OWLClass_c3257298_bd3b_4aa3_8b44_3e2a229a4997 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "nail"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c69b626f_c453_4f87_80b7_257dd3bc1ebd
+:OWLClass_c69b626f_c453_4f87_80b7_257dd3bc1ebd rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "speak"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c8128655_f801_47cc_b76f_29ddd6417f44
+:OWLClass_c8128655_f801_47cc_b76f_29ddd6417f44 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "profane"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c81f4b5a_07f1_476b_b867_5133485ba614
+:OWLClass_c81f4b5a_07f1_476b_b867_5133485ba614 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "love"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c8464bc4_9059_4e23_966c_2b03846562ab
+:OWLClass_c8464bc4_9059_4e23_966c_2b03846562ab rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "brain"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c87c038b_8aa9_43af_9624_3fa0f8ef9071
+:OWLClass_c87c038b_8aa9_43af_9624_3fa0f8ef9071 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "digest"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c9854327_bb63_42fd_b146_e303df8e3e30
+:OWLClass_c9854327_bb63_42fd_b146_e303df8e3e30 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "choices"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_c9f4b9d3_f8f6_4943_b244_b2d49b1acb04
+:OWLClass_c9f4b9d3_f8f6_4943_b244_b2d49b1acb04 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
+                                               rdfs:label "physically ill"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_cb17ffd6_78a5_4f78_9c2c_72f712309b74
+:OWLClass_cb17ffd6_78a5_4f78_9c2c_72f712309b74 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "fear"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_cba842a5_a329_4662_a66d_f7259a08b090
+:OWLClass_cba842a5_a329_4662_a66d_f7259a08b090 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0 ;
+                                               rdfs:label "awake"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_cc98d3d8_55ef_4de6_bd46_0012a997f95b
+:OWLClass_cc98d3d8_55ef_4de6_bd46_0012a997f95b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "assume"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_cd1c4321_3158_4e6d_9408_c42c47cce47f
+:OWLClass_cd1c4321_3158_4e6d_9408_c42c47cce47f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "care"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_cda7fe1a_98f3_4aaf_85d1_1249fb63a2dd
+:OWLClass_cda7fe1a_98f3_4aaf_85d1_1249fb63a2dd rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d0a88381_fa7e_47dd_bb80_4f20d490d46a ;
+                                               rdfs:label "right leg"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ce0cd7b0_bbdf_4ce2_969c_b27ccf2177b2
+:OWLClass_ce0cd7b0_bbdf_4ce2_969c_b27ccf2177b2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "stomach"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ce7940c1_c4f3_44bc_85fe_2db8fc4f29e8
+:OWLClass_ce7940c1_c4f3_44bc_85fe_2db8fc4f29e8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "experience"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d0a88381_fa7e_47dd_bb80_4f20d490d46a
+:OWLClass_d0a88381_fa7e_47dd_bb80_4f20d490d46a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "leg"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3
+:OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc ;
+                                               rdfs:label "emotional state of being"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d234b2d2_3798_477e_a23b_b6fced647cd3
+:OWLClass_d234b2d2_3798_477e_a23b_b6fced647cd3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_60869127_d182_4383_bab5_b0282f7f4276 ;
+                                               rdfs:label "vertibrae"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d2930341_5f5c_4107_8853_39d351c18b08
+:OWLClass_d2930341_5f5c_4107_8853_39d351c18b08 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "abuse"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d2f772a1_f566_4fdb_8f90_80117bf98673
+:OWLClass_d2f772a1_f566_4fdb_8f90_80117bf98673 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 ;
+                                               rdfs:label "receive testimony-know about"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d37c3b4b_6f31_4462_bd9b_904f7b8de4d1
+:OWLClass_d37c3b4b_6f31_4462_bd9b_904f7b8de4d1 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "capabilities"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d454476f_d645_4d5e_9bd6_99b76d8710fc
+:OWLClass_d454476f_d645_4d5e_9bd6_99b76d8710fc rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "defy"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d4b72926_7b95_4599_a4d6_0f47a19d74f1
+:OWLClass_d4b72926_7b95_4599_a4d6_0f47a19d74f1 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7a5e2bdd_d3f8_4802_ac2e_f05dcbbc9316 ;
+                                               rdfs:label "indifferent"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d52bc74a_c735_4584_a5f7_67e5c70d6e53
+:OWLClass_d52bc74a_c735_4584_a5f7_67e5c70d6e53 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "hate"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d64ddb20_3ec8_4396_a757_75964df5ca55
+:OWLClass_d64ddb20_3ec8_4396_a757_75964df5ca55 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "pray"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d749ebdf_438c_4468_97c9_5276225235dc
+:OWLClass_d749ebdf_438c_4468_97c9_5276225235dc rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "competency"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d790061c_5b90_4a00_8a96_564a9cf9397f
+:OWLClass_d790061c_5b90_4a00_8a96_564a9cf9397f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "knowledge"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d79826a1_9445_46b1_b5de_a53e9231585f
+:OWLClass_d79826a1_9445_46b1_b5de_a53e9231585f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0 ;
+                                               rdfs:label "unconscious"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d89d6763_57a7_4883_b37c_1f989e5e3e2f
+:OWLClass_d89d6763_57a7_4883_b37c_1f989e5e3e2f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "delight"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_d9af58bb_69dd_4f26_a368_2a3e14668318
+:OWLClass_d9af58bb_69dd_4f26_a368_2a3e14668318 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 ;
+                                               rdfs:label "remember-decide-trust"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_dc6634cd_33c6_4db7_adcb_b82d1b71f2c8
+:OWLClass_dc6634cd_33c6_4db7_adcb_b82d1b71f2c8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "intuition"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_dd6f046e_8259_4820_b2e0_53c27c06ca54
+:OWLClass_dd6f046e_8259_4820_b2e0_53c27c06ca54 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "interest"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ddb0210a_93db_48ea_8e9f_3cdc9c7f309e
+:OWLClass_ddb0210a_93db_48ea_8e9f_3cdc9c7f309e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 ;
+                                               rdfs:label "do repeatedly-acquire proficiency"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_dde186a5_9ac6_4d3e_b6c4_248b1b50de93
+:OWLClass_dde186a5_9ac6_4d3e_b6c4_248b1b50de93 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "listen"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_dea6bcbb_36d0_456e_ae40_e2b8ee269b64
+:OWLClass_dea6bcbb_36d0_456e_ae40_e2b8ee269b64 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "persevere"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_debacd2c_428b_4b66_9e60_7a90c6cf6442
+:OWLClass_debacd2c_428b_4b66_9e60_7a90c6cf6442 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
+                                               rdfs:label "physically sated"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_dec6412d_8161_4afe_9789_f9d46cbb9e54
+:OWLClass_dec6412d_8161_4afe_9789_f9d46cbb9e54 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d ;
+                                               rdfs:label "alive to God"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_e0c1089b_f26e_4fcb_a3e0_fe42e881786a
+:OWLClass_e0c1089b_f26e_4fcb_a3e0_fe42e881786a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "decide"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_e0e65016_c561_4c63_850f_616f9a317a6b
+:OWLClass_e0e65016_c561_4c63_850f_616f9a317a6b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "grasp"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_e1293141_a9a2_4ec5_a4d0_fc4914115e8c
+:OWLClass_e1293141_a9a2_4ec5_a4d0_fc4914115e8c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "exult"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_e1505b77_f5e0_4f87_9276_3170acf848d8
+:OWLClass_e1505b77_f5e0_4f87_9276_3170acf848d8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "covet"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_e1caa899_cc67_44a7_a680_5874f1342f16
+:OWLClass_e1caa899_cc67_44a7_a680_5874f1342f16 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "spinal cord"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_e4bfff0a_49de_4fa6_a2ba_fae4a3a87106
+:OWLClass_e4bfff0a_49de_4fa6_a2ba_fae4a3a87106 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ee43face_7862_4c65_80bb_93a5d8cf86f8 ;
+                                               rdfs:label "arrogance"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_e6311f95_309b_4c26_8540_827cb9c99b3a
+:OWLClass_e6311f95_309b_4c26_8540_827cb9c99b3a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_68992945_c621_43e9_ab3f_2fc95da36f5b ;
+                                               rdfs:label "small intestine"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_e694f973_d118_4cd7_b048_d33c0e94a906
+:OWLClass_e694f973_d118_4cd7_b048_d33c0e94a906 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a8bb3579_7d4e_44e4_934a_f55b90cbf258 ;
+                                               rdfs:label "left kidney"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_e6ef0437_bea1_4f77_a285_4113e52a80e7
+:OWLClass_e6ef0437_bea1_4f77_a285_4113e52a80e7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "weakness"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750
+:OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "attitude"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_eb57e0dc_ae17_4dcb_8c1e_160d92c7f625
+:OWLClass_eb57e0dc_ae17_4dcb_8c1e_160d92c7f625 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
+                                               rdfs:label "emotionally healthy"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ebe1962b_481b_4055_8430_b819949ec2ab
+:OWLClass_ebe1962b_481b_4055_8430_b819949ec2ab rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "eye"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ec6d1c50_1f76_4770_985b_39050840500c
+:OWLClass_ec6d1c50_1f76_4770_985b_39050840500c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "like"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ecdde5ab_86f5_4827_ab2e_4bb22c940484
+:OWLClass_ecdde5ab_86f5_4827_ab2e_4bb22c940484 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 ;
+                                               rdfs:label "learn-reason-believe"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ed4d9ccc_6131_466f_a2a6_87e9fa34aaab
+:OWLClass_ed4d9ccc_6131_466f_a2a6_87e9fa34aaab rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d ;
+                                               rdfs:label "worried"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ed8b55a2_f3ec_4f3f_a745_705510e00d1f
+:OWLClass_ed8b55a2_f3ec_4f3f_a745_705510e00d1f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b340cbf4_6098_42f5_b919_0e004f85114f ;
+                                               rdfs:label "run"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ee136606_f65c_4b90_bbf3_d70f63c17a13
+:OWLClass_ee136606_f65c_4b90_bbf3_d70f63c17a13 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "thought"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ee184730_403a_4b9b_b924_9d4d49f109bd
+:OWLClass_ee184730_403a_4b9b_b924_9d4d49f109bd rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "hip"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ee43face_7862_4c65_80bb_93a5d8cf86f8
+:OWLClass_ee43face_7862_4c65_80bb_93a5d8cf86f8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6d2b190b_4ac3_42a0_ac5d_407084d94f6f ;
+                                               rdfs:label "manner of speech"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ee550dac_296e_49dc_8e4a_ca3734f27e8f
+:OWLClass_ee550dac_296e_49dc_8e4a_ca3734f27e8f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_60869127_d182_4383_bab5_b0282f7f4276 ;
+                                               rdfs:label "skull"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_eea7a604_114e_47e9_8ac4_7133d1648000
+:OWLClass_eea7a604_114e_47e9_8ac4_7133d1648000 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "heed"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f056d7b9_41e0_4c2c_8ad1_c422b1c97fe8
+:OWLClass_f056d7b9_41e0_4c2c_8ad1_c422b1c97fe8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
+                                               rdfs:label "physically alive"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f143fdd4_cad4_4314_8f4b_8f0325ea2a79
+:OWLClass_f143fdd4_cad4_4314_8f4b_8f0325ea2a79 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "lung"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f2f55d6b_9eec_49a6_91a9_624099e0b934
+:OWLClass_f2f55d6b_9eec_49a6_91a9_624099e0b934 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "focus"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f37dab1d_cc5e_432f_bb84_4a10193bce8f
+:OWLClass_f37dab1d_cc5e_432f_bb84_4a10193bce8f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9587ddb6_d7f0_4679_8964_0c859a475059 ;
+                                               rdfs:label "right ear"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f3f3fbd5_c267_430c_9814_7803b800a7f2
+:OWLClass_f3f3fbd5_c267_430c_9814_7803b800a7f2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "cravings"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f52f5fcc_bfb2_41c4_b295_6a575997408b
+:OWLClass_f52f5fcc_bfb2_41c4_b295_6a575997408b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ff45767a_d847_4708_a73a_df50b8e34bb4 ;
+                                               rdfs:label "big toe"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f5f4c797_de3e_4c67_9482_ea73514a9898
+:OWLClass_f5f4c797_de3e_4c67_9482_ea73514a9898 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "arm"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f64d615e_dca5_4133_bac7_efed44435b1f
+:OWLClass_f64d615e_dca5_4133_bac7_efed44435b1f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "stand"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f658b538_8b37_425a_aa17_33cb39bae9ad
+:OWLClass_f658b538_8b37_425a_aa17_33cb39bae9ad rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
+                                               rdfs:label "mind"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f76a2bd6_ada1_46ca_89c1_8ef3a39d06bc
+:OWLClass_f76a2bd6_ada1_46ca_89c1_8ef3a39d06bc rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 ;
+                                               rdfs:label "respitory system"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f7b83066_bd2f_4e78_811f_fae64ed205f7
+:OWLClass_f7b83066_bd2f_4e78_811f_fae64ed205f7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "face"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f8e19f08_3acf_4757_ab6d_71e332a469ea
+:OWLClass_f8e19f08_3acf_4757_ab6d_71e332a469ea rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_26a8dcb9_7dd4_44d9_957e_976b57cdceb2 ;
+                                               rdfs:label "right foot"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f90fe062_5eb1_40d2_83f8_06f6ef4b7527
+:OWLClass_f90fe062_5eb1_40d2_83f8_06f6ef4b7527 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "ignore"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f9831ef3_1ad5_4b55_b06a_6736c0450212
+:OWLClass_f9831ef3_1ad5_4b55_b06a_6736c0450212 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "desires"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_f9f84578_751b_4072_bc27_457f49cbdd13
+:OWLClass_f9f84578_751b_4072_bc27_457f49cbdd13 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "reject"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_fb8c3a92_f10b_40fd_897e_a4832addffd9
+:OWLClass_fb8c3a92_f10b_40fd_897e_a4832addffd9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b340cbf4_6098_42f5_b919_0e004f85114f ;
+                                               rdfs:label "skip"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_fcd1342d_e189_407b_8208_93c20df2ec05
+:OWLClass_fcd1342d_e189_407b_8208_93c20df2ec05 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "exalt"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_fcfd471d_5cc0_4c55_b8b9_ff70d322a025
+:OWLClass_fcfd471d_5cc0_4c55_b8b9_ff70d322a025 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a8bb3579_7d4e_44e4_934a_f55b90cbf258 ;
+                                               rdfs:label "right kidney"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ff0e0f7a_1205_439e_8b80_9cd3a0c22e9c
+:OWLClass_ff0e0f7a_1205_439e_8b80_9cd3a0c22e9c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:label "talent"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ff45767a_d847_4708_a73a_df50b8e34bb4
+:OWLClass_ff45767a_d847_4708_a73a_df50b8e34bb4 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
+                                               rdfs:label "toe"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human-being.owl#OWLClass_ff9e8829_fae4_4790_9148_e24ba2e9561f
+:OWLClass_ff9e8829_fae4_4790_9148_e24ba2e9561f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
+                                               rdfs:label "aptitude"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
