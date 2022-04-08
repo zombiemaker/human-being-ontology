@@ -4,6 +4,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix zmmetaverse: <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl> .
 @base <https://raw.githubusercontent.com/human-ontology/main/human.owl> .
 
 <https://raw.githubusercontent.com/human-ontology/main/human.owl> rdf:type owl:Ontology ;
@@ -153,7 +154,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_05f0a0e7_9520_4ffb_a35a_30ec90733d37
 :OWLClass_05f0a0e7_9520_4ffb_a35a_30ec90733d37 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_894017de_947f_490f_8a97_9937cca6e71b ;
-                                               rdfs:label "non-verbal language"@en .
+                                               rdfs:label "non-verbal human language"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_06319254_4de9_40cc_8483_137b484c96b7
@@ -451,6 +452,12 @@
                                                rdfs:label "disregard"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_2576a7fb_a3bc_47dc_baea_af7727544b73
+:OWLClass_2576a7fb_a3bc_47dc_baea_af7727544b73 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
+                                               rdfs:label "human-to-animal language"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_25a30bf8_90b5_452f_92c1_ec5aae26cb8f
 :OWLClass_25a30bf8_90b5_452f_92c1_ec5aae26cb8f rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
@@ -467,6 +474,13 @@
 :OWLClass_26a8dcb9_7dd4_44d9_957e_976b57cdceb2 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
                                                rdfs:label "foot"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_27596b00_eed3_4539_ad11_a7513061a629
+:OWLClass_27596b00_eed3_4539_ad11_a7513061a629 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e24b6ca7_d5e2_4e0a_97b3_850b6e49c233 ;
+                                               rdfs:comment "noun"@en ;
+                                               rdfs:label "drawing"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_28804ed6_0467_4e54_a91e_842b26a2780c
@@ -491,6 +505,12 @@
 :OWLClass_2958d7f5_fffe_4dc1_9faa_0611d972c8e6 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
                                                rdfs:label "spirit"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_295cbdd6_5c2f_4bb6_83d6_a91ef95fd85e
+:OWLClass_295cbdd6_5c2f_4bb6_83d6_a91ef95fd85e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8906b835_adb7_4e26_a30e_5336ab00b836 ;
+                                               rdfs:label "music"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_29707f11_55c2_4d55_aaa4_2bb6a17bb77b
@@ -638,6 +658,13 @@
                                                rdfs:label "alive to sin"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_418fdfcd_9e51_4810_a2ef_88e619bbabe8
+:OWLClass_418fdfcd_9e51_4810_a2ef_88e619bbabe8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_05f0a0e7_9520_4ffb_a35a_30ec90733d37 ;
+                                               rdfs:comment "human action as a language to communicate"@en ;
+                                               rdfs:label "human action"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_41d30bc3_b3ba_4f52_83f4_8274830cc8e3
 :OWLClass_41d30bc3_b3ba_4f52_83f4_8274830cc8e3 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
@@ -707,7 +734,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_493ecaff_9543_4222_80de_be598be3eb6c
 :OWLClass_493ecaff_9543_4222_80de_be598be3eb6c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_894017de_947f_490f_8a97_9937cca6e71b ;
-                                               rdfs:label "verbal language"@en .
+                                               rdfs:label "verbal human language"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_49b0e13e_d32e_46d6_a166_8f983123d2af
@@ -1228,7 +1255,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_81704898_3484_47f6_9444_3aefe7aa7301
 :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 rdf:type owl:Class ;
-                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d78946e6_71d7_4450_9f5c_70b3d20b6671> ;
                                                rdfs:label "human language"@en .
 
 
@@ -1268,6 +1295,12 @@
                                                rdfs:label "prideful"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_870d76e7_3430_4705_9872_bd15d77c5163
+:OWLClass_870d76e7_3430_4705_9872_bd15d77c5163 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e24b6ca7_d5e2_4e0a_97b3_850b6e49c233 ;
+                                               rdfs:label "sculpture"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_87753527_01d7_4692_a9a0_f966ed82f400
 :OWLClass_87753527_01d7_4692_a9a0_f966ed82f400 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9c1272cd_18af_43c2_aca2_b8a8934f2c8c ;
@@ -1305,6 +1338,12 @@
                                                rdfs:label "submit"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_8906b835_adb7_4e26_a30e_5336ab00b836
+:OWLClass_8906b835_adb7_4e26_a30e_5336ab00b836 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_df3b4a19_ab56_4ead_b214_8f265a015fba ;
+                                               rdfs:label "art"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_891e22c0_4398_4d9d_8e7d_bbeaf268c0a0
 :OWLClass_891e22c0_4398_4d9d_8e7d_bbeaf268c0a0 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
@@ -1314,13 +1353,20 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_894017de_947f_490f_8a97_9937cca6e71b
 :OWLClass_894017de_947f_490f_8a97_9937cca6e71b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
-                                               rdfs:label "inter-human language"@en .
+                                               rdfs:label "inter-person human language"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_89bb86b3_3e00_4757_bfcf_32a5f02791bf
 :OWLClass_89bb86b3_3e00_4757_bfcf_32a5f02791bf rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d ;
                                                rdfs:label "dead to God"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_8a9b22ad_9f91_49a3_8353_f5c3937bffdb
+:OWLClass_8a9b22ad_9f91_49a3_8353_f5c3937bffdb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e24b6ca7_d5e2_4e0a_97b3_850b6e49c233 ;
+                                               rdfs:comment "noun"@en ;
+                                               rdfs:label "painting"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_8b6ac3d9_bf23_41b2_91d4_661cbb120864
@@ -1450,6 +1496,12 @@
                                                rdfs:label "imagination"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_99a345f9_0695_4c38_a8ca_bb35e0835856
+:OWLClass_99a345f9_0695_4c38_a8ca_bb35e0835856 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8906b835_adb7_4e26_a30e_5336ab00b836 ;
+                                               rdfs:label "dance"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_99fde1e1_135e_428c_9c5c_75e52d8008fb
 :OWLClass_99fde1e1_135e_428c_9c5c_75e52d8008fb rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
@@ -1484,6 +1536,12 @@
 :OWLClass_9c1272cd_18af_43c2_aca2_b8a8934f2c8c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c ;
                                                rdfs:label "male human part"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_9ca1050f_e901_48bd_a4cb_e64cbe0d0e26
+:OWLClass_9ca1050f_e901_48bd_a4cb_e64cbe0d0e26 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
+                                               rdfs:label "human-to-God language"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_9cbd20b7_dde6_4b13_a001_a717e5f5f2ce
@@ -1788,6 +1846,12 @@
                                                rdfs:label "nail"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_c518ccc6_6ba5_448c_8860_7f7b699e6ed6
+:OWLClass_c518ccc6_6ba5_448c_8860_7f7b699e6ed6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e24b6ca7_d5e2_4e0a_97b3_850b6e49c233 ;
+                                               rdfs:label "photograph"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_c69b626f_c453_4f87_80b7_257dd3bc1ebd
 :OWLClass_c69b626f_c453_4f87_80b7_257dd3bc1ebd rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
@@ -2016,6 +2080,12 @@
                                                rdfs:label "alive to God"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_df3b4a19_ab56_4ead_b214_8f265a015fba
+:OWLClass_df3b4a19_ab56_4ead_b214_8f265a015fba rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_05f0a0e7_9520_4ffb_a35a_30ec90733d37 ;
+                                               rdfs:label "human work"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_e0c1089b_f26e_4fcb_a3e0_fe42e881786a
 :OWLClass_e0c1089b_f26e_4fcb_a3e0_fe42e881786a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
@@ -2044,6 +2114,12 @@
 :OWLClass_e1caa899_cc67_44a7_a680_5874f1342f16 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
                                                rdfs:label "spinal cord"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_e24b6ca7_d5e2_4e0a_97b3_850b6e49c233
+:OWLClass_e24b6ca7_d5e2_4e0a_97b3_850b6e49c233 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8906b835_adb7_4e26_a30e_5336ab00b836 ;
+                                               rdfs:label "image"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_e4bfff0a_49de_4fa6_a2ba_fae4a3a87106
@@ -2164,6 +2240,12 @@
 :OWLClass_f143fdd4_cad4_4314_8f4b_8f0325ea2a79 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
                                                rdfs:label "lung"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_f252819b_adb8_4f41_945d_9f1bcbcaf071
+:OWLClass_f252819b_adb8_4f41_945d_9f1bcbcaf071 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
+                                               rdfs:label "human-to-computer language"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_f2f55d6b_9eec_49a6_91a9_624099e0b934
