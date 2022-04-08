@@ -6,7 +6,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <https://raw.githubusercontent.com/human-ontology/main/human.owl> .
 
-<https://raw.githubusercontent.com/human-ontology/main/human.owl> rdf:type owl:Ontology .
+<https://raw.githubusercontent.com/human-ontology/main/human.owl> rdf:type owl:Ontology ;
+                                                                   owl:imports <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl> .
 
 #################################################################
 #    Data properties
@@ -119,6 +120,12 @@
                                                rdfs:label "upper lip"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_02042138_cbb2_4508_b322_d1ebf461a664
+:OWLClass_02042138_cbb2_4508_b322_d1ebf461a664 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d ;
+                                               rdfs:label "spiritually calloused"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_02d122fb_945f_4ec6_b1e4_f01c510b7a21
 :OWLClass_02d122fb_945f_4ec6_b1e4_f01c510b7a21 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750 ;
@@ -145,7 +152,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_05f0a0e7_9520_4ffb_a35a_30ec90733d37
 :OWLClass_05f0a0e7_9520_4ffb_a35a_30ec90733d37 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
+                                               rdfs:subClassOf :OWLClass_894017de_947f_490f_8a97_9937cca6e71b ;
                                                rdfs:label "non-verbal language"@en .
 
 
@@ -296,7 +303,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d
 :OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc ;
-                                               rdfs:label "spiritual state of being"@en .
+                                               rdfs:label "human spiritual state of being"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_17de3a80_9fd5_41ef_9d91_7f05bd4a8176
@@ -339,13 +346,19 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab
 :OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c ;
-                                               rdfs:label "female component"@en .
+                                               rdfs:label "female human part"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_1bdf80f7_b8c3_4977_b8ae_05eeb79fd69b
 :OWLClass_1bdf80f7_b8c3_4977_b8ae_05eeb79fd69b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
                                                rdfs:label "recognize"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_1c7b4c36_949a_45db_8e90_fd4347a45ea1
+:OWLClass_1c7b4c36_949a_45db_8e90_fd4347a45ea1 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
+                                               rdfs:label "physically calloused"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_1d76fca4_744e_47ca_9ced_007b78b77eca
@@ -356,8 +369,8 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f
 :OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
-                                               rdfs:label "sub-component"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "human part"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_1e2786b1_711f_4e90_8f59_fde1cd8f2ea6
@@ -380,7 +393,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_1ec222bc_3465_453f_af73_7018ea42a8d3
 :OWLClass_1ec222bc_3465_453f_af73_7018ea42a8d3 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
                                                rdfs:label "interpretation"@en .
 
 
@@ -456,11 +469,6 @@
                                                rdfs:label "foot"@en .
 
 
-###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47
-:OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 rdf:type owl:Class ;
-                                               rdfs:label "class"@en .
-
-
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_28804ed6_0467_4e54_a91e_842b26a2780c
 :OWLClass_28804ed6_0467_4e54_a91e_842b26a2780c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
@@ -493,7 +501,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_2cb7346b_2849_40c5_b5f4_4397fd88e376
 :OWLClass_2cb7346b_2849_40c5_b5f4_4397fd88e376 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "choice"@en .
 
 
@@ -513,7 +521,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c
 :OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362 ;
-                                               rdfs:label "sex specific component"@en .
+                                               rdfs:label "sex specific human part"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_35a2cd71_217d_4162_bd30_99e9a660fd4c
@@ -576,11 +584,6 @@
                                                rdfs:label "awareness"@en .
 
 
-###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_3bd4f767_8f63_4bee_ad7b_308acfefb5e2
-:OWLClass_3bd4f767_8f63_4bee_ad7b_308acfefb5e2 rdf:type owl:Class ;
-                                               rdfs:label "category"@en .
-
-
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_3c20f2b3_edf9_4c32_ad09_ea8cea4af9a1
 :OWLClass_3c20f2b3_edf9_4c32_ad09_ea8cea4af9a1 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
@@ -614,7 +617,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_4047bc76_f78a_4ad1_bd83_f2b04ab5b061
 :OWLClass_4047bc76_f78a_4ad1_bd83_f2b04ab5b061 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
-                                               rdfs:label "sensitive"@en .
+                                               rdfs:label "emotionally sensitive"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_40b9d992_7082_4591_a4a0_5531d3602a0e
@@ -703,7 +706,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_493ecaff_9543_4222_80de_be598be3eb6c
 :OWLClass_493ecaff_9543_4222_80de_be598be3eb6c rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
+                                               rdfs:subClassOf :OWLClass_894017de_947f_490f_8a97_9937cca6e71b ;
                                                rdfs:label "verbal language"@en .
 
 
@@ -715,9 +718,9 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7
 :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d67f8322_20a2_4fae_a5f3_f9c635e4eba2> ;
                                                rdfs:comment "the ability of a single human being to do something"@en ;
-                                               rdfs:label "capability"@en .
+                                               rdfs:label "human capability"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_49efae0d_0455_42c6_9769_33c8ab356654
@@ -752,7 +755,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_4dcb6f45_1869_4bf3_97e6_7c5a5283f748
 :OWLClass_4dcb6f45_1869_4bf3_97e6_7c5a5283f748 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
                                                rdfs:label "plan (noun)"@en .
 
 
@@ -765,7 +768,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660
 :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc ;
-                                               rdfs:label "physical state of being"@en .
+                                               rdfs:label "human physical state of being"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_505ac514_0e5b_4a5a_8c55_55ea3547a0ff
@@ -782,7 +785,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_50e1c4a4_ee8c_4b4b_87e0_6994e79ad3e9
 :OWLClass_50e1c4a4_ee8c_4b4b_87e0_6994e79ad3e9 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "skill"@en .
 
 
@@ -848,8 +851,8 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_56b0aa45_9094_4cb8_b41c_fae8432351e6
 :OWLClass_56b0aa45_9094_4cb8_b41c_fae8432351e6 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
-                                               rdfs:label "person"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_e6b2ca5b_ee6d_49d8_a4c6_4e47dc192aae> ;
+                                               rdfs:label "human person"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_573f1e3c_4248_42d2_af18_20697d5010ad
@@ -861,7 +864,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_575db699_5d91_4ac6_adea_d4ce5b18a51c
 :OWLClass_575db699_5d91_4ac6_adea_d4ce5b18a51c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
-                                               rdfs:label "calloused"@en .
+                                               rdfs:label "emotionally calloused"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_58dfb5c6_c4bb_4b44_84e2_f14e3d770207
@@ -992,7 +995,8 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a
 :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a rdf:type owl:Class ;
-                                               rdfs:label "collection"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_181e658c_c1f5_4580_8f68_c20589eb69ad> ;
+                                               rdfs:label "collection of human production"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_68629869_7087_415f_9569_6758ccc9a738
@@ -1123,7 +1127,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5
 :OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ,
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_e76181d6_7ce1_4e1d_b9a2_0d605970e98a> ,
                                                                [ rdf:type owl:Class ;
                                                                  owl:unionOf ( :OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a
                                                                                :OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2
@@ -1198,6 +1202,12 @@
                                                rdfs:label "plans"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_7dbb64f9_d232_4047_aa76_ab175c8c70da
+:OWLClass_7dbb64f9_d232_4047_aa76_ab175c8c70da rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1ac316fc_8c82_43cf_b12b_0186cfa16c1a ;
+                                               rdfs:label "frown"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58
 :OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
@@ -1218,8 +1228,8 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_81704898_3484_47f6_9444_3aefe7aa7301
 :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
-                                               rdfs:label "language"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "human language"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_818cb6df_b92a_43e3_bf8d_d38c6707e8b7
@@ -1230,8 +1240,14 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922
 :OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
-                                               rdfs:label "process"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0e19d18c_a030_4f25_b9d3_7768019a64fc> ;
+                                               rdfs:label "human process"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_83334608_d94a_4d00_ade6_ba26f6cd865e
+:OWLClass_83334608_d94a_4d00_ade6_ba26f6cd865e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "need (noun)"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_8479b900_4bd9_40b2_905c_69f5aa2a6143
@@ -1293,6 +1309,12 @@
 :OWLClass_891e22c0_4398_4d9d_8e7d_bbeaf268c0a0 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
                                                rdfs:label "ingest"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_894017de_947f_490f_8a97_9937cca6e71b
+:OWLClass_894017de_947f_490f_8a97_9937cca6e71b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
+                                               rdfs:label "inter-human language"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_89bb86b3_3e00_4757_bfcf_32a5f02791bf
@@ -1399,7 +1421,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_96b9e439_a691_4086_9529_d3017422b9fc
 :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "dimension of being"@en .
 
 
@@ -1411,7 +1433,8 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_9766683c_d343_4ffb_8b21_3c3f61da0532
 :OWLClass_9766683c_d343_4ffb_8b21_3c3f61da0532 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_086c56c4_d797_49a0_aa88_ce1d03a00fc5> ;
+                                               rdfs:comment "a human being's lens for interpreting the world around him/her"@en ;
                                                rdfs:label "world view"@en .
 
 
@@ -1423,7 +1446,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_97ad7af2_99ac_448c_9fc9_111c9bdc4aa5
 :OWLClass_97ad7af2_99ac_448c_9fc9_111c9bdc4aa5 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
                                                rdfs:label "imagination"@en .
 
 
@@ -1435,14 +1458,14 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc
 :OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
-                                               rdfs:label "state of being"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_64c1c8be_0c0a_4b3f_b4af_d8228920deea> ;
+                                               rdfs:label "human state of being"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d
 :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362 ;
-                                               rdfs:label "non-sex specific component"@en .
+                                               rdfs:label "non-sex specific human part"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_9be3da14_69e5_41c2_8cc8_02e4a4a72bee
@@ -1460,7 +1483,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_9c1272cd_18af_43c2_aca2_b8a8934f2c8c
 :OWLClass_9c1272cd_18af_43c2_aca2_b8a8934f2c8c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c ;
-                                               rdfs:label "male component"@en .
+                                               rdfs:label "male human part"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_9cbd20b7_dde6_4b13_a001_a717e5f5f2ce
@@ -1502,7 +1525,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362
 :OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f ;
-                                               rdfs:label "physical sub-component"@en .
+                                               rdfs:label "human physical part"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_9f390fe0_2294_4216_9d78_794839decd86
@@ -1598,8 +1621,8 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_a7e5c24d_42eb_4d3b_ab17_658bd44ea9ae
 :OWLClass_a7e5c24d_42eb_4d3b_ab17_658bd44ea9ae rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
-                                               rdfs:label "sub-system"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227> ;
+                                               rdfs:label "human sub-system"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_a870684a_13e8_468e_8674_1a8f457524fa
@@ -1641,7 +1664,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384
 :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f ;
-                                               rdfs:label "spiritual sub-component"@en .
+                                               rdfs:label "human spiritual part"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2
@@ -1677,7 +1700,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0
 :OWLClass_b482119b_5cb0_4728_a00b_0d837d704df0 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc ;
-                                               rdfs:label "mental state of being"@en .
+                                               rdfs:label "human mental state of being"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_b4b184f6_2b4c_44ad_975a_35c1d1b62840
@@ -1725,14 +1748,14 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_bc58ea31_9944_473e_b12a_fbe56c10c22e
 :OWLClass_bc58ea31_9944_473e_b12a_fbe56c10c22e rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
-                                               rdfs:label "behavior"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "human behavior"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c
 :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
-                                               rdfs:label "capacity"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d5d0faef_033e_4f87_9bfb_8512ef8c61bf> ;
+                                               rdfs:label "human capacity"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_be96d3a3_2621_4948_90de_d99e3d6919c8
@@ -1845,7 +1868,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_ce7940c1_c4f3_44bc_85fe_2db8fc4f29e8
 :OWLClass_ce7940c1_c4f3_44bc_85fe_2db8fc4f29e8 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
                                                rdfs:label "experience"@en .
 
 
@@ -1855,10 +1878,16 @@
                                                rdfs:label "leg"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_d1390f4f_eec4_4426_819e_2fd6e2759071
+:OWLClass_d1390f4f_eec4_4426_819e_2fd6e2759071 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1ac316fc_8c82_43cf_b12b_0186cfa16c1a ;
+                                               rdfs:label "smile"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3
 :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a3d996a_58b7_4906_a65b_12af6a630ecc ;
-                                               rdfs:label "emotional state of being"@en .
+                                               rdfs:label "human emotional state of being"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_d234b2d2_3798_477e_a23b_b6fced647cd3
@@ -1939,9 +1968,15 @@
                                                rdfs:label "remember-decide-trust"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_dadfe32a_e315_4ff3_afb1_3d1e1bdb90a8
+:OWLClass_dadfe32a_e315_4ff3_afb1_3d1e1bdb90a8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
+                                               rdfs:label "physically sensitive"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_dc6634cd_33c6_4db7_adcb_b82d1b71f2c8
 :OWLClass_dc6634cd_33c6_4db7_adcb_b82d1b71f2c8 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
                                                rdfs:label "intuition"@en .
 
 
@@ -1954,7 +1989,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_ddb0210a_93db_48ea_8e9f_3cdc9c7f309e
 :OWLClass_ddb0210a_93db_48ea_8e9f_3cdc9c7f309e rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_8197407b_d346_437a_a0d6_e1c8116b9922 ;
-                                               rdfs:label "do repeatedly-acquire proficiency"@en .
+                                               rdfs:label "repeat-acquire proficiency"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_dde186a5_9ac6_4d3e_b6c4_248b1b50de93
@@ -2029,10 +2064,22 @@
                                                rdfs:label "left kidney"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_e6c0bdb3_bdd0_4c2d_bf51_ae11b5a6acd7
+:OWLClass_e6c0bdb3_bdd0_4c2d_bf51_ae11b5a6acd7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1547fba4_958a_4356_b896_7b8557440152 ;
+                                               rdfs:label "posture"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_e6ef0437_bea1_4f77_a285_4113e52a80e7
 :OWLClass_e6ef0437_bea1_4f77_a285_4113e52a80e7 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
                                                rdfs:label "weakness"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_e8a76926_c0b6_4f44_a51b_ed4ce338a91b
+:OWLClass_e8a76926_c0b6_4f44_a51b_ed4ce338a91b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
+                                               rdfs:label "want (noun)"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_e97325fa_732d_44dd_9d44_4e2cc8dd2750
@@ -2215,9 +2262,15 @@
                                                rdfs:label "right kidney"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_fd521798_8c1f_4094_99a1_95d1c0287231
+:OWLClass_fd521798_8c1f_4094_99a1_95d1c0287231 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_17cf0408_5f78_476a_811e_837ca0976b7d ;
+                                               rdfs:label "spiritually sensitive"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_ff0e0f7a_1205_439e_8b80_9cd3a0c22e9c
 :OWLClass_ff0e0f7a_1205_439e_8b80_9cd3a0c22e9c rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_273ee7f5_ca65_4922_ad88_dfe94fd93c47 ;
+                                               rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
                                                rdfs:label "talent"@en .
 
 
