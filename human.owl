@@ -221,6 +221,12 @@
                                                rdfs:label "emotionally dead"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_1164e5ed_1684_4421_bf0b_1b5812c6a00a
+:OWLClass_1164e5ed_1684_4421_bf0b_1b5812c6a00a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "works"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_11f4be2b_74f4_483c_9e5a_6d0269e83975
 :OWLClass_11f4be2b_74f4_483c_9e5a_6d0269e83975 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_6d2b190b_4ac3_42a0_ac5d_407084d94f6f ;
@@ -303,6 +309,13 @@
 :OWLClass_19639ffa_df0d_4a35_b3c2_254561b37e82 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
                                                rdfs:label "proficiency"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_1a2c448a_a067_44fb_849c_f09638d93446
+:OWLClass_1a2c448a_a067_44fb_849c_f09638d93446 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1164e5ed_1684_4421_bf0b_1b5812c6a00a ;
+                                               rdfs:comment "collection of works done that God categories as sin"@en ;
+                                               rdfs:label "wickedness"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_1ac316fc_8c82_43cf_b12b_0186cfa16c1a
@@ -474,7 +487,7 @@
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_29707f11_55c2_4d55_aaa4_2bb6a17bb77b
 :OWLClass_29707f11_55c2_4d55_aaa4_2bb6a17bb77b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:subClassOf :OWLClass_14fa7ee1_d070_48c1_a1ac_38511810edcc ;
                                                rdfs:label "assumptions"@en .
 
 
@@ -917,6 +930,12 @@
                                                rdfs:label "will"@en .
 
 
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_5fbdd943_4986_4ffc_843b_7a5a1474b5fb
+:OWLClass_5fbdd943_4986_4ffc_843b_7a5a1474b5fb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "knowledge"@en .
+
+
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_6019481a_32d6_4a11_af73_673b44acdfe5
 :OWLClass_6019481a_32d6_4a11_af73_673b44acdfe5 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
@@ -1171,6 +1190,12 @@
 :OWLClass_7cf640c1_7e9c_4754_b863_66e3d076a9ea rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
                                                rdfs:label "head"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_7d462753_939f_4781_8654_c3f8cba6cc11
+:OWLClass_7d462753_939f_4781_8654_c3f8cba6cc11 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
+                                               rdfs:label "plans"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58
@@ -1496,6 +1521,13 @@
 :OWLClass_9f98b318_dba1_4e89_8453_eb6f96a6ca98 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
                                                rdfs:label "finger"@en .
+
+
+###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_a008ce9b_fa9c_4dd4_a7e1_786c9917771b
+:OWLClass_a008ce9b_fa9c_4dd4_a7e1_786c9917771b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1164e5ed_1684_4421_bf0b_1b5812c6a00a ;
+                                               rdfs:comment "collection of works done that God categorizes are right"@en ;
+                                               rdfs:label "righteousness"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_a109fba8_6f0b_45af_a707_d700e9c17920
