@@ -2595,6 +2595,12 @@
                                                rdfs:label "human-to-computer language"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_f2a2277c_5bb9_40d3_9c30_1c181a3b8e66
+:OWLClass_f2a2277c_5bb9_40d3_9c30_1c181a3b8e66 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_88bcb4c9_a3be_4918_a7b4_8ab5d23ef693 ;
+                                               rdfs:label "writing"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_f2f55d6b_9eec_49a6_91a9_624099e0b934
 :OWLClass_f2f55d6b_9eec_49a6_91a9_624099e0b934 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_bcd6ac94_21f8_4de1_af83_1b2d421b873c ;
