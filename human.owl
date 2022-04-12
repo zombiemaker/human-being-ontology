@@ -1005,7 +1005,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_62d52cec_6a5b_491f_abd4_2d704796efe6
 :OWLClass_62d52cec_6a5b_491f_abd4_2d704796efe6 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
-                                               rdfs:label "experiences"@en .
+                                               rdfs:label "moments"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_6380ad87_dd09_4628_baa5_b3937f6d8454
@@ -1023,7 +1023,7 @@
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a
 :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_181e658c_c1f5_4580_8f68_c20589eb69ad> ;
-                                               rdfs:label "collection of human production"@en .
+                                               rdfs:label "human experiences"@en .
 
 
 ###  https://raw.githubusercontent.com/human-ontology/main/human.owl#OWLClass_68629869_7087_415f_9569_6758ccc9a738
