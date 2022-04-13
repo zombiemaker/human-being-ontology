@@ -1544,7 +1544,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_894017de_947f_490f_8a97_9937cca6e71b
 :OWLClass_894017de_947f_490f_8a97_9937cca6e71b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
-                                               rdfs:label "inter-person human language"@en .
+                                               rdfs:label "inter-human language"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_89bb86b3_3e00_4757_bfcf_32a5f02791bf
