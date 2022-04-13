@@ -1511,7 +1511,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a
 :OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a rdf:type owl:Class ;
-                                               owl:equivalentClass :OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2 ;
+                                               owl:equivalentClass :OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9 ;
                                                rdfs:subClassOf :OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5 ;
                                                owl:disjointWith :OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2 ;
                                                rdfs:label "male human"@en .
