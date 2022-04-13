@@ -1,0 +1,124 @@
+@prefix : <https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owl> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix zm-hb: <https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2> .
+@base <https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s003.owl> .
+
+<https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s003.owl> rdf:type owl:Ontology ;
+                                                                                             owl:imports <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl> ;
+                                                                                             rdfs:comment "a sample model using the human ontology using the John F. Kennedy family" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0
+<https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0> rdf:type owl:AnnotationProperty .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405
+<https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405> rdf:type owl:AnnotationProperty .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f
+<https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_17c8ea16_b88a_4893_9ccc_1e80b8142310
+:OWLNamedIndividual_17c8ea16_b88a_4893_9ccc_1e80b8142310 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Robert F. Kennedy"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_4130c46e_633f_4e5f_b747_c7e0e207ed5b
+:OWLNamedIndividual_4130c46e_633f_4e5f_b747_c7e0e207ed5b rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "R. Sargent Shriver"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_4af05b86_742d_455b_a6f0_d79c4bb7e8aa
+:OWLNamedIndividual_4af05b86_742d_455b_a6f0_d79c4bb7e8aa rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Kathleen Kennedy"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_4e9b71c5_0659_485b_bc73_1d28324742b3
+:OWLNamedIndividual_4e9b71c5_0659_485b_bc73_1d28324742b3 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Rosemary Kennedy"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_4ed69d82_44ea_49df_8781_1ca535bf54ed
+:OWLNamedIndividual_4ed69d82_44ea_49df_8781_1ca535bf54ed rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Victoria Reggie Kennedy"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_511784f2_205b_49c1_baa2_ff5d4473bcf2
+:OWLNamedIndividual_511784f2_205b_49c1_baa2_ff5d4473bcf2 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Jean Kennedy Smith"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_595c1086_e2f4_4a57_b273_0a440b0e3b9b
+:OWLNamedIndividual_595c1086_e2f4_4a57_b273_0a440b0e3b9b rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Patricia Kennedy Lawford"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_789e4bd0_327b_45fc_a582_f99899c37870
+:OWLNamedIndividual_789e4bd0_327b_45fc_a582_f99899c37870 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Eunice Kennedy Shriver"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_78dee7ab_fb2f_48e2_b9ed_3c8131ccf331
+:OWLNamedIndividual_78dee7ab_fb2f_48e2_b9ed_3c8131ccf331 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Ethel Skakel Kennedy"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_7fc80b68_71ae_4fd3_a7c4_346428a3cdfc
+:OWLNamedIndividual_7fc80b68_71ae_4fd3_a7c4_346428a3cdfc rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Edward M. Kennedy"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_86170f5a_3525_4776_adb7_7d3994b41ecf
+:OWLNamedIndividual_86170f5a_3525_4776_adb7_7d3994b41ecf rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Joseph P. Kennedy Jr."@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_8b4e7f1f_25c3_4684_a1fc_d91809647c77
+:OWLNamedIndividual_8b4e7f1f_25c3_4684_a1fc_d91809647c77 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Rose Fitzgerald Kennedy"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_9d201eea_0e8b_482a_b9eb_a14e6f7668d6
+:OWLNamedIndividual_9d201eea_0e8b_482a_b9eb_a14e6f7668d6 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Joseph P. Kennedy"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_b381c4ae_b7c0_4b5c_b091_00ca950f3a18
+:OWLNamedIndividual_b381c4ae_b7c0_4b5c_b091_00ca950f3a18 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Stephen E. Smith"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_eaa58c79_94c4_49cd_96cb_59164183518d
+:OWLNamedIndividual_eaa58c79_94c4_49cd_96cb_59164183518d rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "John F. Kennedy"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

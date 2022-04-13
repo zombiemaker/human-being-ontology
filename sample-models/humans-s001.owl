@@ -31,20 +31,34 @@
 #    Individuals
 #################################################################
 
-###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s001.owlOWLNamedIndividual_10cb82f4_22d7_4337_9f59_bba262eeb2ef
-<https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s001.owlOWLNamedIndividual_10cb82f4_22d7_4337_9f59_bba262eeb2ef> rdf:type owl:NamedIndividual ;
-                                                                                                                                                   rdfs:label "Jane Doe"@en ;
-                                                                                                                                                   <https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0> "Doe" ;
-                                                                                                                                                   <https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405> "Jane Doe" ;
-                                                                                                                                                   <https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f> "Jane" .
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_37303e7d_083f_4aee_870e_711aa7051a2e
+:OWLNamedIndividual_37303e7d_083f_4aee_870e_711aa7051a2e rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Jane Doe"@en .
 
 
-###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s001.owlOWLNamedIndividual_839f1e32_b368_48d5_8ccb_8cc317204e8c
-<https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s001.owlOWLNamedIndividual_839f1e32_b368_48d5_8ccb_8cc317204e8c> rdf:type owl:NamedIndividual ;
-                                                                                                                                                   rdfs:label "John Doe"@en ;
-                                                                                                                                                   <https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0> "Doe" ;
-                                                                                                                                                   <https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405> "John Doe" ;
-                                                                                                                                                   <https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f> "John" .
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_83f9f4f5_a33b_4a9b_8b18_a620ea819a5d
+:OWLNamedIndividual_83f9f4f5_a33b_4a9b_8b18_a620ea819a5d rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Robert Doe"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_a5b0ff87_42cd_4c6d_8011_6a669f50412d
+:OWLNamedIndividual_a5b0ff87_42cd_4c6d_8011_6a669f50412d rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "John Doe"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_dbbb531c_c2bc_478b_8a09_fd0ea1aed8dd
+:OWLNamedIndividual_dbbb531c_c2bc_478b_8a09_fd0ea1aed8dd rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Christina Wellington"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_dfb46263_0fec_4d19_8142_81b4c3ebf262
+:OWLNamedIndividual_dfb46263_0fec_4d19_8142_81b4c3ebf262 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Michael Jordan"@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

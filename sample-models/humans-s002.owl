@@ -1,0 +1,306 @@
+@prefix : <https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owl> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix zm-hb: <https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2> .
+@base <https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s002.owl> .
+
+<https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s002.owl> rdf:type owl:Ontology ;
+                                                                                             owl:imports <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl> ;
+                                                                                             rdfs:comment "a sample model using the human ontology using people recorded in the Bible" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0
+<https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_4133ad3b_63bb_4f92_9474_8b80ab9935e0> rdf:type owl:AnnotationProperty .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405
+<https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405> rdf:type owl:AnnotationProperty .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f
+<https://raw.githubusercontent.com/human-being-ontology/main/human-being.owl#OWLDataProperty_996ead20_32d1_4158_af3c_18287a6f776f> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_16af688e_e325_4c05_a36f_f32d3d9622d6
+:OWLNamedIndividual_16af688e_e325_4c05_a36f_f32d3d9622d6 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Zebedee and apostle of Jesus" ;
+                                                         rdfs:label "James"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_1cba660c_dc9b_4f81_b0c9_ded073ae3fae
+:OWLNamedIndividual_1cba660c_dc9b_4f81_b0c9_ded073ae3fae rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "apostle of Jesus" ;
+                                                         rdfs:label "Thaddaeus"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_26462873_53d3_4dea_a6df_4539ce05ac3b
+:OWLNamedIndividual_26462873_53d3_4dea_a6df_4539ce05ac3b rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "apostle of Jesus" ;
+                                                         rdfs:label "Andrew"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_2f7224f9_d745_4a9d_a8f7_db900a011b84
+:OWLNamedIndividual_2f7224f9_d745_4a9d_a8f7_db900a011b84 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         owl:sameAs :OWLNamedIndividual_7906ca21_07e1_47c0_8fc9_a31a1464c8dd ;
+                                                         rdfs:comment "apostle of Jesus" ;
+                                                         rdfs:label "Paul"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_3cf4f2ba_5e26_496d_a4e3_02d9b8c3adcc
+:OWLNamedIndividual_3cf4f2ba_5e26_496d_a4e3_02d9b8c3adcc rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         owl:sameAs :OWLNamedIndividual_a6a077b3_ea80_404f_aae1_bfe33c7b0afe ;
+                                                         rdfs:label "Jacob"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_3db57c22_07db_4b13_b600_c24913d03684
+:OWLNamedIndividual_3db57c22_07db_4b13_b600_c24913d03684 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Gad"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_4599880f_8369_409e_a698_6368e0088e11
+:OWLNamedIndividual_4599880f_8369_409e_a698_6368e0088e11 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:comment "mother of Jesus and wife of Joseph" ;
+                                                         rdfs:label "Mary"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_4798f2bd_07f5_4b8b_be0b_d6211b67c881
+:OWLNamedIndividual_4798f2bd_07f5_4b8b_be0b_d6211b67c881 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Adam"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_569f0c12_20b2_4e0f_82da_4d297f655bfc
+:OWLNamedIndividual_569f0c12_20b2_4e0f_82da_4d297f655bfc rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Benjamin"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_6c5441ec_584d_4f83_8e4a_c9441a687683
+:OWLNamedIndividual_6c5441ec_584d_4f83_8e4a_c9441a687683 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Abel"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_73455720_ff3e_4e28_b53c_4d6645d7d6ce
+:OWLNamedIndividual_73455720_ff3e_4e28_b53c_4d6645d7d6ce rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Abraham"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_7906ca21_07e1_47c0_8fc9_a31a1464c8dd
+:OWLNamedIndividual_7906ca21_07e1_47c0_8fc9_a31a1464c8dd rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Saul"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_7a96ed6d_ced2_423e_80e8_52f55dd62e24
+:OWLNamedIndividual_7a96ed6d_ced2_423e_80e8_52f55dd62e24 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Judah"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_7b6035d0_c73b_4ece_8057_d107c3743b8a
+:OWLNamedIndividual_7b6035d0_c73b_4ece_8057_d107c3743b8a rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "the Zealot and apostle of Jesus" ;
+                                                         rdfs:label "Simon"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_7f457e32_4367_4798_90a5_590cde6ef2bc
+:OWLNamedIndividual_7f457e32_4367_4798_90a5_590cde6ef2bc rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Ishmael"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_805a68a1_cb40_4f7d_93e0_57654c0e13cd
+:OWLNamedIndividual_805a68a1_cb40_4f7d_93e0_57654c0e13cd rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "apostle of Jesus" ;
+                                                         rdfs:label "Matthew"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_8772caba_577e_4370_9e76_49d2827874d1
+:OWLNamedIndividual_8772caba_577e_4370_9e76_49d2827874d1 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "apostle of Jesus" ;
+                                                         rdfs:label "Bartholomew"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_888e59bd_1d01_4a5e_90c9_4d63be2233ec
+:OWLNamedIndividual_888e59bd_1d01_4a5e_90c9_4d63be2233ec rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Issachar"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_8c30945e_67c5_47db_b7f0_38d48e257731
+:OWLNamedIndividual_8c30945e_67c5_47db_b7f0_38d48e257731 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Zebedee, brother of James, and apostle of Jesus" ;
+                                                         rdfs:label "John"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_8ef82823_5e9c_4adf_b12c_15771bc747f9
+:OWLNamedIndividual_8ef82823_5e9c_4adf_b12c_15771bc747f9 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "the son of God" ;
+                                                         rdfs:label "Jesus"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_99b65803_3989_49bb_b088_8ce570ef85a5
+:OWLNamedIndividual_99b65803_3989_49bb_b088_8ce570ef85a5 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "false apostle of Jesus" ;
+                                                         rdfs:label "Judas Iscariot"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_a14ec5c1_7e70_4547_af20_edef3063aa40
+:OWLNamedIndividual_a14ec5c1_7e70_4547_af20_edef3063aa40 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "husband of Mary and step father of Jesus" ;
+                                                         rdfs:label "Joseph"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_a421abaa_e265_46d5_836c_08b52a79328c
+:OWLNamedIndividual_a421abaa_e265_46d5_836c_08b52a79328c rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         owl:sameAs :OWLNamedIndividual_b9aa4d75_8d4e_4ba1_a0e8_5de346b7c7cd ;
+                                                         rdfs:comment "apostle of Jesus" ;
+                                                         rdfs:label "Peter"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_a6a077b3_ea80_404f_aae1_bfe33c7b0afe
+:OWLNamedIndividual_a6a077b3_ea80_404f_aae1_bfe33c7b0afe rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Israel"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_a86719fa_b819_4f29_8425_273e06481412
+:OWLNamedIndividual_a86719fa_b819_4f29_8425_273e06481412 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Seth"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_a8a03175_6bf2_4f4c_b670_260cbae710c8
+:OWLNamedIndividual_a8a03175_6bf2_4f4c_b670_260cbae710c8 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Simeon"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_b312e314_6314_47c8_b43a_786cc63ee6d4
+:OWLNamedIndividual_b312e314_6314_47c8_b43a_786cc63ee6d4 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Noah"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_b8fc9ca2_6329_41aa_a50d_44675550ba3c
+:OWLNamedIndividual_b8fc9ca2_6329_41aa_a50d_44675550ba3c rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Naphtali"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_b9aa4d75_8d4e_4ba1_a0e8_5de346b7c7cd
+:OWLNamedIndividual_b9aa4d75_8d4e_4ba1_a0e8_5de346b7c7cd rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Simon"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_c1df6223_12db_436a_aed2_550c9abe16ac
+:OWLNamedIndividual_c1df6223_12db_436a_aed2_550c9abe16ac rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Levi"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_c8040135_9762_4acb_8f7e_e10d50767070
+:OWLNamedIndividual_c8040135_9762_4acb_8f7e_e10d50767070 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Reuben"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_d1ed1200_22c2_4751_9a80_7b64b5b182b8
+:OWLNamedIndividual_d1ed1200_22c2_4751_9a80_7b64b5b182b8 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Isaac"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_d44a3a7c_c426_472b_85a3_3b86e58ee7ba
+:OWLNamedIndividual_d44a3a7c_c426_472b_85a3_3b86e58ee7ba rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Jacob" ;
+                                                         rdfs:label "Joseph"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_dee9ccd3_1595_4be3_95b2_3bdd0bec69ca
+:OWLNamedIndividual_dee9ccd3_1595_4be3_95b2_3bdd0bec69ca rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "apostle of Jesus" ;
+                                                         rdfs:label "Thomas"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_e3f86646_bfe5_47c1_8502_87d995bfc55e
+:OWLNamedIndividual_e3f86646_bfe5_47c1_8502_87d995bfc55e rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Alphaeus and apostle of Jesus" ;
+                                                         rdfs:label "James"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_e46e8efa_f1a6_48f9_ac6e_b77ccdfb7629
+:OWLNamedIndividual_e46e8efa_f1a6_48f9_ac6e_b77ccdfb7629 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Asher"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_e9b5f62c_91bf_4591_9c86_ced517bae025
+:OWLNamedIndividual_e9b5f62c_91bf_4591_9c86_ced517bae025 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:label "Eve"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_ec5c696f_9f5b_428e_b7d1_7af8eb7a896d
+:OWLNamedIndividual_ec5c696f_9f5b_428e_b7d1_7af8eb7a896d rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Cain"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_eea02da4_af28_4152_a938_73daa996c6e7
+:OWLNamedIndividual_eea02da4_af28_4152_a938_73daa996c6e7 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Zebulun"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_f1e3921e_6860_467d_93a1_baf48b5bff8c
+:OWLNamedIndividual_f1e3921e_6860_467d_93a1_baf48b5bff8c rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Dan"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_f45c1fb3_3713_4294_9ecd_c9aa7bc7be81
+:OWLNamedIndividual_f45c1fb3_3713_4294_9ecd_c9aa7bc7be81 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:label "Esau"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_fd84fead_977c_4c1d_8a87_06d8448fa8f9
+:OWLNamedIndividual_fd84fead_977c_4c1d_8a87_06d8448fa8f9 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "apostle of Jesus" ;
+                                                         rdfs:label "Philip"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
