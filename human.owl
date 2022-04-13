@@ -636,6 +636,12 @@
                                                rdfs:label "swimming"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_328ea8ff_7199_416d_b0c0_99b71c33dfc8
+:OWLClass_328ea8ff_7199_416d_b0c0_99b71c33dfc8 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982> ;
+                                               rdfs:label "person functional role"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_3317ea8e_8ae4_4c25_ba68_1ad1a1f3865e
 :OWLClass_3317ea8e_8ae4_4c25_ba68_1ad1a1f3865e rdf:type owl:Class ;
                                                owl:equivalentClass :OWLClass_f3edb20d_00b0_441b_a185_41d5a07d2859 ;
@@ -1560,7 +1566,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_894017de_947f_490f_8a97_9937cca6e71b
 :OWLClass_894017de_947f_490f_8a97_9937cca6e71b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
-                                               rdfs:label "inter-human language"@en .
+                                               rdfs:label "human-to-human language"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_89bb86b3_3e00_4757_bfcf_32a5f02791bf
@@ -2551,6 +2557,12 @@
                                                rdfs:label "attitude"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_eaac4221_ddcd_4d58_bc58_047db5f2f516
+:OWLClass_eaac4221_ddcd_4d58_bc58_047db5f2f516 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982> ;
+                                               rdfs:label "human functional role"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_eb57e0dc_ae17_4dcb_8c1e_160d92c7f625
 :OWLClass_eb57e0dc_ae17_4dcb_8c1e_160d92c7f625 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_d21803b6_14d2_4085_98a5_09882d5596f3 ;
@@ -2639,12 +2651,6 @@
 :OWLClass_f143fdd4_cad4_4314_8f4b_8f0325ea2a79 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d ;
                                                rdfs:label "lung"@en .
-
-
-###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_f252819b_adb8_4f41_945d_9f1bcbcaf071
-:OWLClass_f252819b_adb8_4f41_945d_9f1bcbcaf071 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_81704898_3484_47f6_9444_3aefe7aa7301 ;
-                                               rdfs:label "human-to-computer language"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_f2a2277c_5bb9_40d3_9c30_1c181a3b8e66
