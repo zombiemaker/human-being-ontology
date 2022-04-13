@@ -70,6 +70,7 @@
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_3db57c22_07db_4b13_b600_c24913d03684
 :OWLNamedIndividual_3db57c22_07db_4b13_b600_c24913d03684 rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Jacob" ;
                                                          rdfs:label "Gad"@en .
 
 
@@ -83,24 +84,29 @@
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_4798f2bd_07f5_4b8b_be0b_d6211b67c881
 :OWLNamedIndividual_4798f2bd_07f5_4b8b_be0b_d6211b67c881 rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "first human" ;
                                                          rdfs:label "Adam"@en .
 
 
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_569f0c12_20b2_4e0f_82da_4d297f655bfc
 :OWLNamedIndividual_569f0c12_20b2_4e0f_82da_4d297f655bfc rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Jacob" ;
                                                          rdfs:label "Benjamin"@en .
 
 
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_6c5441ec_584d_4f83_8e4a_c9441a687683
 :OWLNamedIndividual_6c5441ec_584d_4f83_8e4a_c9441a687683 rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "2nd son of Adam and Eve" ;
                                                          rdfs:label "Abel"@en .
 
 
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_73455720_ff3e_4e28_b53c_4d6645d7d6ce
 :OWLNamedIndividual_73455720_ff3e_4e28_b53c_4d6645d7d6ce rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment """friend of God
+father of Isaac""" ;
                                                          rdfs:label "Abraham"@en .
 
 
@@ -126,6 +132,7 @@
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_7f457e32_4367_4798_90a5_590cde6ef2bc
 :OWLNamedIndividual_7f457e32_4367_4798_90a5_590cde6ef2bc rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Abraham and Hagar" ;
                                                          rdfs:label "Ishmael"@en .
 
 
@@ -194,6 +201,7 @@
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_a86719fa_b819_4f29_8425_273e06481412
 :OWLNamedIndividual_a86719fa_b819_4f29_8425_273e06481412 rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Adam and Eve" ;
                                                          rdfs:label "Seth"@en .
 
 
@@ -218,6 +226,7 @@
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_b9aa4d75_8d4e_4ba1_a0e8_5de346b7c7cd
 :OWLNamedIndividual_b9aa4d75_8d4e_4ba1_a0e8_5de346b7c7cd rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "an apostle of Jesus" ;
                                                          rdfs:label "Simon"@en .
 
 
@@ -236,6 +245,7 @@
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_d1ed1200_22c2_4751_9a80_7b64b5b182b8
 :OWLNamedIndividual_d1ed1200_22c2_4751_9a80_7b64b5b182b8 rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Abraham, father of Esau and Jacob" ;
                                                          rdfs:label "Isaac"@en .
 
 
@@ -263,18 +273,23 @@
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_e46e8efa_f1a6_48f9_ac6e_b77ccdfb7629
 :OWLNamedIndividual_e46e8efa_f1a6_48f9_ac6e_b77ccdfb7629 rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Jacob" ;
                                                          rdfs:label "Asher"@en .
 
 
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_e9b5f62c_91bf_4591_9c86_ced517bae025
 :OWLNamedIndividual_e9b5f62c_91bf_4591_9c86_ced517bae025 rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:comment """second human
+wife of Adam
+mother of Cain, Abel, Seth""" ;
                                                          rdfs:label "Eve"@en .
 
 
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_ec5c696f_9f5b_428e_b7d1_7af8eb7a896d
 :OWLNamedIndividual_ec5c696f_9f5b_428e_b7d1_7af8eb7a896d rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "first son of Adam and Eve" ;
                                                          rdfs:label "Cain"@en .
 
 
@@ -287,12 +302,14 @@
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_f1e3921e_6860_467d_93a1_baf48b5bff8c
 :OWLNamedIndividual_f1e3921e_6860_467d_93a1_baf48b5bff8c rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Jacob" ;
                                                          rdfs:label "Dan"@en .
 
 
 ###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/s001.owlOWLNamedIndividual_f45c1fb3_3713_4294_9ecd_c9aa7bc7be81
 :OWLNamedIndividual_f45c1fb3_3713_4294_9ecd_c9aa7bc7be81 rdf:type owl:NamedIndividual ,
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
+                                                         rdfs:comment "son of Isaac" ;
                                                          rdfs:label "Esau"@en .
 
 
@@ -301,6 +318,51 @@
                                                                   <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9> ;
                                                          rdfs:comment "apostle of Jesus" ;
                                                          rdfs:label "Philip"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s002.owl#OWLNamedIndividual_12141f79_2a9e_4fff_a756_8d5617bb1b9e
+:OWLNamedIndividual_12141f79_2a9e_4fff_a756_8d5617bb1b9e rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         owl:sameAs :OWLNamedIndividual_a0c154eb_ac68_41a1_b492_13533a701189 ;
+                                                         rdfs:label "Sarai"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s002.owl#OWLNamedIndividual_6a16a740_6053_4c26_b8d0_507bed0b5142
+:OWLNamedIndividual_6a16a740_6053_4c26_b8d0_507bed0b5142 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:comment "wife of Jacob" ;
+                                                         rdfs:label "Leah"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s002.owl#OWLNamedIndividual_74036c7f_bc0d_410d_b8d5_415bad6d570e
+:OWLNamedIndividual_74036c7f_bc0d_410d_b8d5_415bad6d570e rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:comment "wife of Isaac" ;
+                                                         rdfs:label "Rebekah"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s002.owl#OWLNamedIndividual_8670b18b_528f_4a04_9564_bfc860288134
+:OWLNamedIndividual_8670b18b_528f_4a04_9564_bfc860288134 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:comment "wife of Jacob" ;
+                                                         rdfs:label "Rachel"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s002.owl#OWLNamedIndividual_a0c154eb_ac68_41a1_b492_13533a701189
+:OWLNamedIndividual_a0c154eb_ac68_41a1_b492_13533a701189 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:comment """wife of Abraham
+mother of Isaac""" ;
+                                                         rdfs:label "Sarah"@en .
+
+
+###  https://raw.githubusercontent.com/human-being-ontology/main/sample-models/humans-s002.owl#OWLNamedIndividual_cd6bdaa7_f0bb_4b6c_9299_e86a89ed66b9
+:OWLNamedIndividual_cd6bdaa7_f0bb_4b6c_9299_e86a89ed66b9 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab> ;
+                                                         rdfs:comment """servant of Sarah (wife of Abraham)
+concubine of Abraham
+mother of Ishmael""" ;
+                                                         rdfs:label "Hagar"@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
