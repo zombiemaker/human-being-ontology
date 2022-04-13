@@ -378,7 +378,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_1b5c0e57_f294_4cd8_a760_29677cd6e9e8
 :OWLClass_1b5c0e57_f294_4cd8_a760_29677cd6e9e8 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 ;
-                                               rdfs:label "sensory system"@en .
+                                               rdfs:label "human sensory system"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab
@@ -486,7 +486,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24002dcd_bc86_446b_882e_f4359693ad1c
 :OWLClass_24002dcd_bc86_446b_882e_f4359693ad1c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_a7e5c24d_42eb_4d3b_ab17_658bd44ea9ae ;
-                                               rdfs:label "spiritual sub-system"@en .
+                                               rdfs:label "human spiritual system"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_2483a6a9_b3c9_4740_b41f_834678b1a4c6
@@ -918,13 +918,13 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_4b978649_bfe5_4b5b_bd5f_7f7bf717541a
 :OWLClass_4b978649_bfe5_4b5b_bd5f_7f7bf717541a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 ;
-                                               rdfs:label "circulatory system"@en .
+                                               rdfs:label "human circulatory system"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035
 :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_a7e5c24d_42eb_4d3b_ab17_658bd44ea9ae ;
-                                               rdfs:label "physical sub-system"@en .
+                                               rdfs:label "human physical system"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_4db820cf_c5b7_4ce0_9777_5f0ed4201e18
@@ -1609,7 +1609,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_8d571aa0_7058_4e4f_a4e5_4d1e83488153
 :OWLClass_8d571aa0_7058_4e4f_a4e5_4d1e83488153 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 ;
-                                               rdfs:label "skeletory system"@en .
+                                               rdfs:label "human skeletory system"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_8e1c0e15_3a7a_4283_a8d4_124b6f09e083
@@ -1935,7 +1935,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_a5c5dc37_f9de_487d_9732_69d6bdbc1e2f
 :OWLClass_a5c5dc37_f9de_487d_9732_69d6bdbc1e2f rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 ;
-                                               rdfs:label "muscular system"@en .
+                                               rdfs:label "human muscular system"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_a7097da9_8ee0_4543_ad69_13156b9cfaa1
@@ -1947,7 +1947,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_a7e5c24d_42eb_4d3b_ab17_658bd44ea9ae
 :OWLClass_a7e5c24d_42eb_4d3b_ab17_658bd44ea9ae rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227> ;
-                                               rdfs:label "human sub-system"@en .
+                                               rdfs:label "human system"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_a870684a_13e8_468e_8674_1a8f457524fa
@@ -2722,7 +2722,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_f76a2bd6_ada1_46ca_89c1_8ef3a39d06bc
 :OWLClass_f76a2bd6_ada1_46ca_89c1_8ef3a39d06bc rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4d3a5750_dbf2_4782_b76c_07c6b5224035 ;
-                                               rdfs:label "respitory system"@en .
+                                               rdfs:label "human respiratory system"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_f7b83066_bd2f_4e78_811f_fae64ed205f7
