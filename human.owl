@@ -181,6 +181,12 @@
                                                rdfs:label "belief"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a
+:OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
+                                               rdfs:label "category of human"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_0946188d_3412_4274_9b24_f1d389c9fd6b
 :OWLClass_0946188d_3412_4274_9b24_f1d389c9fd6b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
