@@ -613,7 +613,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_2cb7346b_2849_40c5_b5f4_4397fd88e376
 :OWLClass_2cb7346b_2849_40c5_b5f4_4397fd88e376 rdf:type owl:Class ;
-                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
                                                rdfs:label "choice"@en .
 
 
@@ -1243,6 +1243,12 @@
 :OWLClass_6a9a6bbd_63f5_4735_8ac6_449f4c8aacee rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d ;
                                                rdfs:label "happy"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_6b05e46c_6d44_4596_a1e9_7ecdf9dcbc5a
+:OWLClass_6b05e46c_6d44_4596_a1e9_7ecdf9dcbc5a rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "option"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_6cd39720_ef0d_4b26_9aac_b1029f05043e
