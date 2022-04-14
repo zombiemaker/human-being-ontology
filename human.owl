@@ -1624,6 +1624,12 @@
                                                rdfs:label "left hand"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_8e62a4bd_0152_4549_9fe8_64f317cb2722
+:OWLClass_8e62a4bd_0152_4549_9fe8_64f317cb2722 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_fc38f31c_e055_4b18_82f4_551916245567> ;
+                                               rdfs:label "categorization scheme for humans"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_8f608acc_45b7_409f_a297_65bfebf78df8
 :OWLClass_8f608acc_45b7_409f_a297_65bfebf78df8 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1e2786b1_711f_4e90_8f59_fde1cd8f2ea6 ;
