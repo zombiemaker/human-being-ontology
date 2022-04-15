@@ -645,6 +645,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_328ea8ff_7199_416d_b0c0_99b71c33dfc8
 :OWLClass_328ea8ff_7199_416d_b0c0_99b71c33dfc8 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982> ;
+                                               rdfs:comment "a functional role of a person" ;
                                                rdfs:label "person functional role"@en .
 
 
@@ -2578,6 +2579,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_eaac4221_ddcd_4d58_bc58_047db5f2f516
 :OWLClass_eaac4221_ddcd_4d58_bc58_047db5f2f516 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982> ;
+                                               rdfs:comment "a functional role of a human" ;
                                                rdfs:label "human functional role"@en .
 
 
