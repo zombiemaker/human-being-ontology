@@ -112,6 +112,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_018e05a6_a0d4_4572_a552_ee8b65f38d48
 :OWLClass_018e05a6_a0d4_4572_a552_ee8b65f38d48 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
+                                               rdfs:comment "a spiritual part that condemns / justify a human's choice" ;
                                                rdfs:label "conscience"@en .
 
 
@@ -390,7 +391,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab
 :OWLClass_1bd00447_bd62_4d74_862f_3d77ad4f0fab rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c ;
-                                               rdfs:label "female human part"@en .
+                                               rdfs:label "female human body part"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_1bdf80f7_b8c3_4977_b8ae_05eeb79fd69b
@@ -403,6 +404,12 @@
 :OWLClass_1c7b4c36_949a_45db_8e90_fd4347a45ea1 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4e9a822c_042d_44e2_8da2_0725933c2660 ;
                                                rdfs:label "physically calloused"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_1cd2a046_136d_41ce_9273_60e1a831fd45
+:OWLClass_1cd2a046_136d_41ce_9273_60e1a831fd45 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e17c0c6d_503e_425e_8100_6bf2197e8674 ;
+                                               rdfs:label "reasoning"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_1d76fca4_744e_47ca_9ced_007b78b77eca
@@ -583,8 +590,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_2958d7f5_fffe_4dc1_9faa_0611d972c8e6
 :OWLClass_2958d7f5_fffe_4dc1_9faa_0611d972c8e6 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
-                                               rdfs:label "spirit"@en .
+                                               rdfs:subClassOf :OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f ;
+                                               rdfs:label "human spirit"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_295cbdd6_5c2f_4bb6_83d6_a91ef95fd85e
@@ -665,7 +672,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c
 :OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362 ;
-                                               rdfs:label "sex specific human part"@en .
+                                               rdfs:label "sex specific human body part"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_35a2cd71_217d_4162_bd30_99e9a660fd4c
@@ -829,6 +836,12 @@
 :OWLClass_4583dede_46b5_4fdb_9dea_d40d55190417 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58 ;
                                                rdfs:label "smell"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_4625b4de_7d8d_4153_abe4_7009c482fded
+:OWLClass_4625b4de_7d8d_4153_abe4_7009c482fded rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "deride"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_466bfeb1_6495_4030_91b6_14a474eb9b5b
@@ -1116,7 +1129,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_5e894aba_baf9_4041_bfac_c705a86d1600
 :OWLClass_5e894aba_baf9_4041_bfac_c705a86d1600 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:subClassOf :OWLClass_81303dd3_40bd_486c_b719_d5c702d79084 ;
                                                rdfs:label "reason"@en .
 
 
@@ -1129,6 +1142,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_5ef83810_42ca_43df_b5a7_85ba02794ee7
 :OWLClass_5ef83810_42ca_43df_b5a7_85ba02794ee7 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
+                                               rdfs:comment "the spiritual organ that chooses" ;
                                                rdfs:label "will"@en .
 
 
@@ -1555,6 +1569,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_88fc6c8a_8125_4ca0_aec7_856a1581ac64
 :OWLClass_88fc6c8a_8125_4ca0_aec7_856a1581ac64 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:comment "an act of the will" ;
                                                rdfs:label "submit"@en .
 
 
@@ -1752,6 +1767,12 @@
                                                rdfs:label "imagination"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_99641523_82d1_4f8f_a93c_2d598b5dd38a
+:OWLClass_99641523_82d1_4f8f_a93c_2d598b5dd38a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "observe"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_99a345f9_0695_4c38_a8ca_bb35e0835856
 :OWLClass_99a345f9_0695_4c38_a8ca_bb35e0835856 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_8906b835_adb7_4e26_a30e_5336ab00b836 ;
@@ -1760,7 +1781,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_99ef777e_8e83_4050_9154_bb893095478c
 :OWLClass_99ef777e_8e83_4050_9154_bb893095478c rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_88bcb4c9_a3be_4918_a7b4_8ab5d23ef693 ;
+                                               rdfs:subClassOf :OWLClass_e17c0c6d_503e_425e_8100_6bf2197e8674 ;
                                                rdfs:label "speculating"@en .
 
 
@@ -1779,7 +1800,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d
 :OWLClass_9a8067da_9f66_42c4_8016_5551c6e61c3d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362 ;
-                                               rdfs:label "non-sex specific human part"@en .
+                                               rdfs:label "non-sex specific body part"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_9be3da14_69e5_41c2_8cc8_02e4a4a72bee
@@ -1797,7 +1818,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_9c1272cd_18af_43c2_aca2_b8a8934f2c8c
 :OWLClass_9c1272cd_18af_43c2_aca2_b8a8934f2c8c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_3591b4c1_d644_402c_a23b_f80c3b093b9c ;
-                                               rdfs:label "male human part"@en .
+                                               rdfs:label "male human body part"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_9c92ef39_77e7_43e0_8cbf_33a4a50a7b07
@@ -1851,7 +1872,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362
 :OWLClass_9f1a7236_eb02_4742_86d1_8cdfd2618362 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f ;
-                                               rdfs:label "human physical part"@en .
+                                               rdfs:label "human body part"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_9f390fe0_2294_4216_9d78_794839decd86
@@ -1933,6 +1954,12 @@
                                                rdfs:label "express a thought"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_a466f67b_71e3_4ba0_ac7c_45ef8504bdb2
+:OWLClass_a466f67b_71e3_4ba0_ac7c_45ef8504bdb2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_81303dd3_40bd_486c_b719_d5c702d79084 ;
+                                               rdfs:label "ponder"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d
 :OWLClass_a4ad65ff_cfab_43dc_b6e5_6bdeaefa8a2d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_96b9e439_a691_4086_9529_d3017422b9fc ;
@@ -1995,8 +2022,14 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_a9b9c4c5_b160_4adb_9178_5037a5bd8cc2
 :OWLClass_a9b9c4c5_b160_4adb_9178_5037a5bd8cc2 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_88bcb4c9_a3be_4918_a7b4_8ab5d23ef693 ;
-                                               rdfs:label "skipping"@en .
+                                               rdfs:subClassOf :OWLClass_e17c0c6d_503e_425e_8100_6bf2197e8674 ;
+                                               rdfs:label "pondering"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_aa32a279_4ed9_4407_8def_09876afc001c
+:OWLClass_aa32a279_4ed9_4407_8def_09876afc001c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "cherish"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_ac7eb471_0787_4f9f_8efc_1c303bfed60a
@@ -2008,19 +2041,26 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_acad20d8_c0b3_45cd_aef6_c8aa6f8d9bbc
 :OWLClass_acad20d8_c0b3_45cd_aef6_c8aa6f8d9bbc rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 ;
+                                               rdfs:comment "a human spirit part that believes, trusts, welcomes, embraces, hopes in things" ;
                                                rdfs:label "faith"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384
 :OWLClass_ae40cb2c_7c43_439a_a2f8_705a0ecb5384 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f ;
-                                               rdfs:label "human spiritual part"@en .
+                                               rdfs:label "human spirit part"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2
 :OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5 ;
                                                rdfs:label "female human"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b06a81f6_0388_4b51_a535_30a46c75b1c7
+:OWLClass_b06a81f6_0388_4b51_a535_30a46c75b1c7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "enjoy"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b083d97c_4d20_4614_9af9_c1a3de1f09b2
@@ -2039,6 +2079,12 @@
 :OWLClass_b16465d5_dd1d_4aa8_9c67_e7abf0f5b4b3 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1e2786b1_711f_4e90_8f59_fde1cd8f2ea6 ;
                                                rdfs:label "left knee"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b188c804_6a53_495e_9dcd_abaf15af6bbb
+:OWLClass_b188c804_6a53_495e_9dcd_abaf15af6bbb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "invent"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b2115cce_e9fa_4cab_a263_edb99acfe51e
@@ -2099,6 +2145,12 @@
 :OWLClass_b74f2711_d24c_4704_b497_664d4efe9c6c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9f98b318_dba1_4e89_8453_eb6f96a6ca98 ;
                                                rdfs:label "pinky finger"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b8731fd4_5c3b_4696_a527_519c763a5274
+:OWLClass_b8731fd4_5c3b_4696_a527_519c763a5274 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "praise"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b8d82d1c_2096_40f0_865b_0a3d6a4cbfae
@@ -2198,10 +2250,22 @@
                                                rdfs:label "photograph"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_c5f78166_9624_4378_943b_b0b37b9f5e22
+:OWLClass_c5f78166_9624_4378_943b_b0b37b9f5e22 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_81303dd3_40bd_486c_b719_d5c702d79084 ;
+                                               rdfs:label "speculate"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_c69b626f_c453_4f87_80b7_257dd3bc1ebd
 :OWLClass_c69b626f_c453_4f87_80b7_257dd3bc1ebd rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
                                                rdfs:label "speak"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_c77883fd_340e_4b28_a8a3_7c29cc8ee560
+:OWLClass_c77883fd_340e_4b28_a8a3_7c29cc8ee560 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
+                                               rdfs:label "evaluate"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_c8128655_f801_47cc_b76f_29ddd6417f44
@@ -2496,6 +2560,12 @@
 :OWLClass_e143447a_684e_449f_9d52_62150564abdb rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_88bcb4c9_a3be_4918_a7b4_8ab5d23ef693 ;
                                                rdfs:label "hopping"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_e14f60b4_bd18_4fd3_9b45_91883e56edbf
+:OWLClass_e14f60b4_bd18_4fd3_9b45_91883e56edbf rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1df0dad8_8256_4e90_9698_3507d4b12f2f ;
+                                               rdfs:label "human body"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_e1505b77_f5e0_4f87_9276_3170acf848d8
