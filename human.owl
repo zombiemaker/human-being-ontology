@@ -656,6 +656,12 @@
                                                rdfs:label "person functional role"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_32939978_6ddc_4e59_870b_192c027d534c
+:OWLClass_32939978_6ddc_4e59_870b_192c027d534c rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_1afde07e_dcaa_4d39_a0b0_584b0f409160> ;
+                                               rdfs:label "human life event"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_3317ea8e_8ae4_4c25_ba68_1ad1a1f3865e
 :OWLClass_3317ea8e_8ae4_4c25_ba68_1ad1a1f3865e rdf:type owl:Class ;
                                                owl:equivalentClass :OWLClass_f3edb20d_00b0_441b_a185_41d5a07d2859 ;
@@ -2214,6 +2220,12 @@
                                                rdfs:label "building"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_c0d956d8_0413_4659_99fd_d6dd9fdcf2ca
+:OWLClass_c0d956d8_0413_4659_99fd_d6dd9fdcf2ca rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_32939978_6ddc_4e59_870b_192c027d534c ;
+                                               rdfs:label "death"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_c0f77dfb_3cd7_4849_90fb_ffb21983a810
 :OWLClass_c0f77dfb_3cd7_4849_90fb_ffb21983a810 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7e1cd471_c419_4cc5_b696_eb0126917a58 ;
@@ -2398,6 +2410,12 @@
 :OWLClass_d37c3b4b_6f31_4462_bd9b_904f7b8de4d1 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
                                                rdfs:label "capabilities"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_d3ee6738_91ca_43ca_8220_ea73eb0b2252
+:OWLClass_d3ee6738_91ca_43ca_8220_ea73eb0b2252 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_32939978_6ddc_4e59_870b_192c027d534c ;
+                                               rdfs:label "birth"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_d454476f_d645_4d5e_9bd6_99b76d8710fc
