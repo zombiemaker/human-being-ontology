@@ -11,6 +11,32 @@
                                                                                owl:imports <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl> .
 
 #################################################################
+#    Object Properties
+#################################################################
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLObjectProperty_3e4ba979_d91c_4c33_8c01_6586a8c2c2cd
+:OWLObjectProperty_3e4ba979_d91c_4c33_8c01_6586a8c2c2cd rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_646379ae_c7a0_466d_85a1_9a76f3d10434 ;
+                                                        rdfs:domain :OWLClass_32939978_6ddc_4e59_870b_192c027d534c ;
+                                                        rdfs:range :OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5 ;
+                                                        rdfs:label "human life event associated human being"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLObjectProperty_646379ae_c7a0_466d_85a1_9a76f3d10434
+:OWLObjectProperty_646379ae_c7a0_466d_85a1_9a76f3d10434 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_b6012ce9_355d_4b5d_ae73_54167c376fc1 ;
+                                                        rdfs:domain :OWLClass_32939978_6ddc_4e59_870b_192c027d534c ;
+                                                        rdfs:label "human life event object property"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLObjectProperty_b6012ce9_355d_4b5d_ae73_54167c376fc1
+:OWLObjectProperty_b6012ce9_355d_4b5d_ae73_54167c376fc1 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_1afde07e_dcaa_4d39_a0b0_584b0f409160> ;
+                                                        rdfs:label "event object property"@en .
+
+
+#################################################################
 #    Data properties
 #################################################################
 
@@ -32,6 +58,13 @@
                                                       rdfs:label "last name"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLDataProperty_4f87de57_04ad_4919_880b_4b314871301f
+:OWLDataProperty_4f87de57_04ad_4919_880b_4b314871301f rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_e1ae15e7_9a77_4ee4_8931_d004413269dc ;
+                                                      rdfs:domain :OWLClass_32939978_6ddc_4e59_870b_192c027d534c ;
+                                                      rdfs:label "human life event property"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLDataProperty_5394097b_f727_4a0e_8750_b5ed5dbd5fb6
 :OWLDataProperty_5394097b_f727_4a0e_8750_b5ed5dbd5fb6 rdf:type owl:DatatypeProperty ;
                                                       rdfs:subPropertyOf :OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d ;
@@ -51,6 +84,12 @@
                                                       rdfs:domain :OWLClass_76aa54a5_9331_4387_b57e_fc22471478e5 ;
                                                       rdfs:range xsd:string ;
                                                       rdfs:label "name of a human being"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLDataProperty_7ca08b49_b310_454d_b77d_b6efc56c1783
+:OWLDataProperty_7ca08b49_b310_454d_b77d_b6efc56c1783 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_4f87de57_04ad_4919_880b_4b314871301f ;
+                                                      rdfs:label "human life event occurrence point-in-time"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLDataProperty_8682dc62_6024_45c6_af43_b3fbfd6e9405
@@ -79,6 +118,13 @@
                                                       rdfs:subPropertyOf :OWLDataProperty_6d531669_9a7d_4405_bda0_916e40b1ff0d ;
                                                       rdf:type owl:FunctionalProperty ;
                                                       rdfs:label "middle name"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLDataProperty_e1ae15e7_9a77_4ee4_8931_d004413269dc
+:OWLDataProperty_e1ae15e7_9a77_4ee4_8931_d004413269dc rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_1afde07e_dcaa_4d39_a0b0_584b0f409160> ;
+                                                      rdfs:range xsd:dateTime ;
+                                                      rdfs:label "event data property"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLDataProperty_fc62c635_a036_4b1c_a1bb_b189277befa0
