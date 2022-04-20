@@ -380,7 +380,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_16ed2c3d_b2f2_4fa3_bd78_738953e9d79d
 :OWLClass_16ed2c3d_b2f2_4fa3_bd78_738953e9d79d rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2 ;
+                                               rdfs:subClassOf :OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a ;
                                                owl:disjointWith :OWLClass_958806b8_1890_4835_92e5_1fc965e37c8b ;
                                                rdfs:label "girl"@en .
 
@@ -562,7 +562,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab
 :OWLClass_24ea23b9_6bf5_4b8e_9adb_7e3a4b27d1ab rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_aefd2bca_986e_4646_9e62_6f4efaf261f2 ;
+                                               rdfs:subClassOf :OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a ;
                                                owl:disjointWith :OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9 ;
                                                rdfs:label "woman"@en .
 
@@ -1784,7 +1784,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_958806b8_1890_4835_92e5_1fc965e37c8b
 :OWLClass_958806b8_1890_4835_92e5_1fc965e37c8b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a ;
+                                               rdfs:subClassOf :OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a ;
                                                rdfs:label "boy"@en .
 
 
@@ -2084,6 +2084,12 @@
                                                rdfs:label "cherish"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_ac58bd17_20b1_4160_89ee_a0fb404b70a3
+:OWLClass_ac58bd17_20b1_4160_89ee_a0fb404b70a3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a ;
+                                               rdfs:label "adult"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_ac7eb471_0787_4f9f_8efc_1c303bfed60a
 :OWLClass_ac7eb471_0787_4f9f_8efc_1c303bfed60a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7029292d_a27e_4e35_9d5e_4878e7c025af ;
@@ -2153,7 +2159,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9
 :OWLClass_b3d0cde0_35c1_4f5f_9d2f_54c5524fc6b9 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_88d24594_29ac_4a7f_9b05_6c2099a54f0a ;
+                                               rdfs:subClassOf :OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a ;
                                                rdfs:label "man"@en .
 
 
@@ -2378,6 +2384,12 @@
 :OWLClass_cbd22caf_c69b_4126_b9c3_517ca8a820e1 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_88bcb4c9_a3be_4918_a7b4_8ab5d23ef693 ;
                                                rdfs:label "removing"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_cc4bbcf0_1bf9_4441_a981_63a5b9ddc9b5
+:OWLClass_cc4bbcf0_1bf9_4441_a981_63a5b9ddc9b5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a ;
+                                               rdfs:label "child"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_cc98d3d8_55ef_4de6_bd46_0012a997f95b
