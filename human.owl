@@ -306,6 +306,12 @@
                                                rdfs:label "emotionally dead"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_0e3a0341_6200_42d0_9271_ee10a3343eb0
+:OWLClass_0e3a0341_6200_42d0_9271_ee10a3343eb0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a ;
+                                               rdfs:label "middle-aged"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_1164e5ed_1684_4421_bf0b_1b5812c6a00a
 :OWLClass_1164e5ed_1684_4421_bf0b_1b5812c6a00a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_667e533d_b8db_4758_b417_7f60c7d6b66a ;
@@ -2338,6 +2344,12 @@
                                                rdfs:label "nail"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_c34d3671_5530_4cee_a549_0e553c1512f7
+:OWLClass_c34d3671_5530_4cee_a549_0e553c1512f7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a ;
+                                               rdfs:label "young adult"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_c518ccc6_6ba5_448c_8860_7f7b699e6ed6
 :OWLClass_c518ccc6_6ba5_448c_8860_7f7b699e6ed6 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_e24b6ca7_d5e2_4e0a_97b3_850b6e49c233 ;
@@ -2354,6 +2366,12 @@
 :OWLClass_c69b626f_c453_4f87_80b7_257dd3bc1ebd rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_49e0c278_65c4_4569_91e1_22e67c20afa7 ;
                                                rdfs:label "speak"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_c755fa58_fd97_46a3_87bd_1853a7b0e7aa
+:OWLClass_c755fa58_fd97_46a3_87bd_1853a7b0e7aa rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_08813611_c235_4d98_b4ff_9cd7e571ed0a ;
+                                               rdfs:label "elderly"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_c77883fd_340e_4b28_a8a3_7c29cc8ee560
